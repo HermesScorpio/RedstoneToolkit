@@ -1,22 +1,24 @@
-from enum import StrEnum
+from enum import StrEnum, auto
 
 import os
 
 
 class PlatForm(StrEnum):
-    MODRINTH = "modrinth"
-    CURSEFORGE = "curseforge"
-    ALL = "all"
+    MODRINTH = auto()
+    CURSEFORGE = auto()
+    ALL = auto()
 
 
 PACKWIZ = os.path.abspath("tools/packwiz.exe")
 FILE_PATH = "file_list.yml"
 ENABLED = "enabled_files"
 DISABLED = "disabled_files"
+RESOURCE = "resource_file"
 MR = "mr_slug"
 CF = "cf_slug"
 NAME = "name"
 URLS = "urls"
+CF_SKIP = "cf_skip"
 
 UTF_8 = "utf-8"
 
@@ -25,11 +27,12 @@ COMMAND = {
     "import": {"--platform": {PlatForm.MODRINTH, PlatForm.CURSEFORGE, PlatForm.ALL}},
     "install": (platform_and_version := {
         "--platform": {
-            PlatForm.MODRINTH: (ver := {"--versions": None}),
+            PlatForm.MODRINTH: (ver := {"--match": {"": {"--reinstall": None}}}),
             PlatForm.CURSEFORGE: ver,
             PlatForm.ALL: ver
         },
-        "--versions": None
+        "--match": {"": {"--reinstall": None}},
+        "--reinstall": None
     }),
     "create": {"--snapshot", "--versions"},
     "remove": {"--versions"},

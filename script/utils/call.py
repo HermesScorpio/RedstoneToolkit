@@ -33,7 +33,16 @@ def __register_arg(arg: list[str] | None = None) -> Namespace:
         default=PlatForm.ALL,
         help="default 'all'"
     )
-    parser_install.add_argument("--versions", help="Your version folder name, if empty select all")
+    parser_install.add_argument(
+        "--match",
+        default="*",
+        help="NPM-compliant version matching, default '*'"
+    )
+    parser_install.add_argument(
+        "--reinstall",
+        action="store_true",
+        help="Reinstall all files that are not from the current platform"
+    )
 
     # create
     parser_create = subparsers.add_parser("create", description="Create a Minecraft version").add_mutually_exclusive_group()
@@ -103,7 +112,7 @@ def call(arg: list[str] | None = None, by: From = From.HUMAN):
             import_index.run(args.platform)
 
         case "install":
-            install.run(args.platform, args.versions)
+            install.run(args.platform, args.match, args.reinstall)
 
         case "create":
             create.run(

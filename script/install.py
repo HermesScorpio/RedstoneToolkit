@@ -1,84 +1,119 @@
+from typing import Any
+
 from script.utils.constant import *
 from script.utils import util, logutil
-from script.utils.install_util import Install
-from semantic_version import Version, NpmSpec
-from subprocess import Popen, PIPE, STDOUT
-from ruamel.yaml import YAML
+from script.utils.install_util import Type, From, Install
 from pathlib import Path
+from ruamel.yaml import YAML
+from subprocess import Popen, STDOUT, PIPE
 
 import re
+import tomllib
 
 
-def run(platform: PlatForm, versions: str | None):
+def run(input_platform: PlatForm, match: str, reinstall: bool):
     clean_log()
-    platform_dict = {
-        PlatForm.ALL: [PlatForm.MODRINTH, PlatForm.CURSEFORGE],
-        PlatForm.MODRINTH: [PlatForm.MODRINTH],
-        PlatForm.CURSEFORGE: [PlatForm.CURSEFORGE]
-    }
-    for p in platform_dict[platform]:
-        mc_dirs= util.get_dir_vers(p)
-        if versions is None:
-            for mc_dir in mc_dirs:
-                __install(p, mc_dir)
-        else:
-            input_dirs = [i for i in versions.split(",") if i in mc_dirs]
-            for input_dir in input_dirs:
-                __install(p, input_dir)
-
-
-
-def __install(platform: PlatForm, mc_ver: str):
-    yaml = YAML()
     with open(FILE_PATH, "r", encoding=UTF_8) as f:
+        yaml = YAML()
         data = yaml.load(f)
-    enabled_file_list: list[dict[str, str]] = data[ENABLED]
-    disabled_file_list: list[dict[str, str]] = data[DISABLED]
-    remove_mod(mc_ver, platform, [*enabled_file_list, *disabled_file_list])
+    for platform in [PlatForm.MODRINTH, PlatForm.CURSEFORGE] if input_platform == PlatForm.ALL else [input_platform]:
+        mc_dirs = util.get_dir_vers(platform)
+        for mc_dir in mc_dirs:
+            if not util.check_match(match, mc_dir): continue
+            remove_file(platform, mc_dir, data, reinstall)
+            __install(platform, mc_dir, data)
 
-    for enabled_file in enabled_file_list:
-        install = Install(platform, mc_ver, enabled_file, False)
+
+def __install(platform: PlatForm, mc_dir: str, data: dict):
+    # install enabled_mods
+    enabled_mods: list[dict[str, Any]] = data[ENABLED]
+    for enabled_mod in enabled_mods:
+        install = Install(
+            platform=platform,
+            mc_ver=mc_dir,
+            meta=enabled_mod,
+            disabled=False,
+            file_type=Type.MODS
+        )
         install.install()
 
-    for disabled_file in disabled_file_list:
-        install = Install(platform, mc_ver, disabled_file, True)
+    # install disabled_mods
+    disabled_mods: list[dict[str, Any]] = data[DISABLED]
+    for disabled_mod in disabled_mods:
+        install = Install(
+            platform=platform,
+            mc_ver=mc_dir,
+            meta=disabled_mod,
+            disabled=True,
+            file_type=Type.MODS
+        )
+        install.install()
+
+    # install resourcepacks
+    resourcepacks: list[dict[str, Any]] = data[RESOURCE]
+    for resourcepack in resourcepacks:
+        install = Install(
+            platform=platform,
+            mc_ver=mc_dir,
+            meta=resourcepack,
+            disabled=False,
+            file_type=Type.RESOURCEPACKS
+        )
         install.install()
 
 
-def remove_mod(mc_ver: str, platform: PlatForm, mods: list[dict[str, str]]):
-    log = logutil.Logger(name=f"install/{mc_ver}").get_log()
-    dir_mods = util.get_dir_mods(platform, mc_ver)
-    mc_semver = Version(mc_ver)
-    for dir_mod in dir_mods:
-        should_remove = False
-        meta = get_meta(dir_mod, mods)
-        if meta:
-            condition = NpmSpec(meta.get("version", "*"))
-            if not condition.match(mc_semver):
-                should_remove = True
-        else:
-            should_remove = True
-        if should_remove:
+def remove_file(platform: PlatForm, mc_dir: str, data: dict, reinstall: bool):
+    log = logutil.Logger(f"install/({platform}/{mc_dir})").get_log()
+    run_path = Path(platform).joinpath(mc_dir)
+    file_class = {
+        Type.MODS: [*data[ENABLED], *data[DISABLED]],
+        Type.RESOURCEPACKS: data[RESOURCE]
+    }
+    for file_type in Type:
+        path = run_path.joinpath(file_type)
+        if not path.exists(): continue
+        remove_ids = [i.name.removesuffix(".pw.toml") for i in path.iterdir() if i.name.endswith(".pw.toml")]
+        meta_list = file_class[file_type]
+        from_dict = __get_from_dict(path)
+        for meta in meta_list:
+            for slug in [MR, CF, NAME]:
+                if platform == PlatForm.CURSEFORGE and meta.get(CF_SKIP, False): continue
+                name: str | None = meta.get(slug)
+                if name is None or not name.lower() in remove_ids: continue
+                match = meta.get("version", "*")
+                if not util.check_match(match, mc_dir): continue
+                if reinstall and from_dict.get(name.lower()).value != platform: continue
+                remove_ids.remove(name.lower())
+        for remove_name in remove_ids:
             with Popen(
-                [PACKWIZ, "remove", dir_mod],
+                [PACKWIZ, "remove", remove_name],
+                cwd=run_path,
                 stdout=PIPE,
                 stderr=STDOUT,
-                cwd=f"./{platform}/{mc_ver}",
                 text=True,
                 bufsize=1
             ) as process:
-                for line in process.stdout:
-                    log.info(line.strip())
+                for text in process.stdout:
+                    log.info(text.strip())
                 process.wait()
 
 
-def get_meta(name: str, mod_list: list[dict[str, str]]) -> dict[str, str]:
-    for mod in mod_list:
-        name_list = [mod.get(MR, ""), mod.get(CF, ""), mod.get(NAME, "").lower()]
-        if name in name_list:
-            return mod
-
-    return {}
+def __get_from_dict(path: Path) -> dict[str, From]:
+    from_dict = dict()
+    for e in path.iterdir():
+        if not e.name.endswith(".pw.toml"): continue
+        name = e.name.removesuffix(".pw.toml")
+        with open(e, "rb") as f:
+            data = tomllib.load(f)
+        if "update" not in data:
+            from_dict[name] = From.URL
+        elif From.MODRINTH in data["update"]:
+            from_dict[name] = From.MODRINTH
+        elif From.CURSEFORGE in data["update"]:
+            from_dict[name] = From.CURSEFORGE
+        else:
+            raise ValueError
+    return from_dict
 
 
 def clean_log():

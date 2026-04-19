@@ -161,10 +161,6 @@ enabled_files:
   - mr_slug: tweakeroo
     cf_slug: tweakeroo
 
-  # Resource Packs
-  - mr_slug: redstone-tweaks
-    cf_slug: redstone-tweaks
-
 disabled_files:
   # Aesthetics
   - mr_slug: continuity
@@ -258,3 +254,7 @@ disabled_files:
     cf_slug: worldedit
   - mr_slug: worldedit-cui
     cf_slug: worldeditcui-fabric
+
+resource_file:
+  - mr_slug: redstone-tweaks
+    cf_slug: redstone-tweaks

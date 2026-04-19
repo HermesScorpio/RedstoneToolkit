@@ -1,21 +1,41 @@
 from script.utils.constant import *
-from script.utils import logutil
+from script.utils import logutil, util
 from subprocess import Popen, PIPE, STDOUT
-from semantic_version import Version, NpmSpec
+from enum import StrEnum, auto
 from pathlib import Path
+from threading import Thread, Event
 
 import re
 import tomllib
 import tomli_w
 
 
+class Type(StrEnum):
+    MODS = auto()
+    RESOURCEPACKS = auto()
+
+
+class From(StrEnum):
+    MODRINTH = auto()
+    CURSEFORGE = auto()
+    URL = auto()
+
+
 class Install:
-    def __init__(self, platform: PlatForm, mc_ver: str, meta: dict, disabled: bool):
+    def __init__(
+            self,
+            platform: PlatForm,
+            mc_ver: str,
+            meta: dict,
+            disabled: bool,
+            file_type: Type
+    ):
         self.platform = platform
         self.mc_ver = mc_ver
         self.mod_meta = meta
         self.path = f"./{platform}/{mc_ver}"
         self.disabled = disabled
+        self.file_type = file_type
         self.log = logutil.Logger(f"{mc_ver}/{platform}").get_log()
         self.log_w = logutil.Logger(
             name=f"{mc_ver}/{platform}",
@@ -25,9 +45,9 @@ class Install:
         ).get_log()
 
     def install(self):
-        mc_semver = Version(self.mc_ver)
-        condition = NpmSpec(self.mod_meta.get("version", "*"))
-        if not condition.match(mc_semver):
+        if self.platform == PlatForm.CURSEFORGE and self.mod_meta.get(CF_SKIP, False):
+            return
+        if not util.check_match(self.mod_meta.get("version", "*"), self.mc_ver):
             return
         mod_name = self.__install()
         if self.disabled:
@@ -79,56 +99,75 @@ class Install:
 
         # we only need the mod for curseforge
         if platform == "cf":
-            args.extend(["--category", "mc-mods"])
+            args.append("--category")
+            match self.file_type:
+                case Type.MODS:
+                    args.append("mc-mods")
+                case Type.RESOURCEPACKS:
+                    args.append("texture-packs")
+                case _:
+                    raise ValueError
 
         with Popen(
-            args,
-            cwd=self.path,
-            text=True,
-            stdout=PIPE,
-            stderr=STDOUT,
-            stdin=PIPE,
-            bufsize=1
+                args,
+                cwd=self.path,
+                text=True,
+                stdout=PIPE,
+                stderr=STDOUT,
+                stdin=PIPE,
+                bufsize=1
         ) as process:
             # Don't change these, because it works by mystical powers
             flag = False
             is_successful = True
+            event = Event()
             for e in process.stdout:
                 text = e.strip()
-                if text == "Dependencies found:":
+                if text == "Dependencies found:" and not flag:
                     flag = True
+                    thread = Thread(target=self.__input_thread, args=(process, event,), daemon=True)
+                    thread.start()
                 if flag:
-                    process.stdin.write("n\n")
-                    process.stdin.flush()
+                    event.set()
                 self.log.info(text)
                 if re.match("Failed to (add|get file for) project:.*", text) or text == "No projects found!":
                     is_successful = False
             process.wait()
         return is_successful
 
+    @classmethod
+    def __input_thread(cls, popen: Popen, event: Event):
+        while True:
+            event.wait(timeout=3)
+            if not event.is_set():
+                popen.stdin.write("n\n")
+                popen.stdin.flush()
+                break
+            else:
+                event.clear()
+
     def __url_install(self, mod_name: str, url: str):
         with Popen(
-            [PACKWIZ, "url", "add", mod_name, url],
-            cwd=self.path,
-            text=True,
-            stdout=PIPE,
-            stderr=PIPE,
-            stdin=PIPE,
-            bufsize=1
+                [PACKWIZ, "url", "add", mod_name, url],
+                cwd=self.path,
+                text=True,
+                stdout=PIPE,
+                stderr=PIPE,
+                stdin=PIPE,
+                bufsize=1
         ) as process:
             for e in process.stdout:
                 text = e.strip()
                 self.log.info(text)
             process.wait()
 
-
     def __is_installed(self, mod_name: str) -> bool:
-        path = Path(self.path).joinpath("mods").joinpath(f"{mod_name}.pw.toml")
+        path = Path(self.path).joinpath(self.file_type).joinpath(f"{mod_name}.pw.toml")
         return path.exists()
 
     def __disable(self, mod_name: str):
-        path = f"./{self.platform}/{self.mc_ver}/mods/{mod_name}.pw.toml"
-        if not Path(path).exists():
+        path = Path(self.platform).joinpath(self.mc_ver).joinpath(self.file_type).joinpath(f"{mod_name}.pw.toml")
+        if not path.exists():
             return
         with open(path, "rb") as f:
             data = tomllib.load(f)
@@ -140,7 +179,7 @@ class Install:
             tomli_w.dump(data, f)
 
     def __enable(self, mod_name):
-        path = f"./{self.platform}/{self.mc_ver}/mods/{mod_name}.pw.toml"
+        path = Path(self.platform).joinpath(self.mc_ver).joinpath(self.file_type).joinpath(f"{mod_name}.pw.toml")
         if not Path(path).exists():
             return
         with open(path, "rb") as f:
