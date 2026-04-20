@@ -379,3 +379,8 @@ metafile = true
 file = "mods/worldeditcui-fabric.pw.toml"
 hash = "7b46502f835cc6fbef7bb19c6f99a64f943631baf3463dd15da7e66dc340acb0"
 metafile = true
+
+[[files]]
+file = "resourcepacks/redstone-tweaks.pw.toml"
+hash = "fcd5560d30a099bb1841a570d733d616b1190fb7988ccbb9e1e968a820068b77"
+metafile = true

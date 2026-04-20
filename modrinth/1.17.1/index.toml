@@ -324,3 +324,8 @@ metafile = true
 file = "mods/worldedit.pw.toml"
 hash = "c33b045ee24809ab5e26dc1a42f364d5ca7cbf48c8d255e8f4021ed68dc1b08f"
 metafile = true
+
+[[files]]
+file = "resourcepacks/redstone-tweaks.pw.toml"
+hash = "428301585d1609b07a713a863fea51ff53e51a0641761332b1e08eb75b1b2205"
+metafile = true

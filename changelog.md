@@ -37,5 +37,7 @@
   - Cubes Without Borders
   - Lithium
   - ModernFix-mVUS
+- 26.1:
+  - SubTick
 - 26.1.2:
   - Concurrent Chunk Management Engine
