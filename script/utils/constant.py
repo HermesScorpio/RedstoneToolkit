@@ -37,7 +37,14 @@ COMMAND = {
     "create": {"--snapshot", "--versions"},
     "remove": {"--versions"},
     "update": {"--match"},
-    "export": platform_and_version,
+    "export": {
+        "--platform": {
+            PlatForm.MODRINTH: {"--version": None},
+            PlatForm.CURSEFORGE: {"--version": None},
+            PlatForm.ALL: {"--version": None}
+        },
+        "--version": None
+    },
     "refresh": None,
     "loader": None,
     "update_version": {
