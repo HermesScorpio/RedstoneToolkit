@@ -139,8 +139,8 @@ class Install:
             process.wait()
         return is_successful
 
-    @classmethod
-    def __input_thread(cls, popen: Popen, event: Event):
+    @staticmethod
+    def __input_thread(popen: Popen, event: Event):
         while True:
             event.wait(timeout=3)
             if not event.is_set():
