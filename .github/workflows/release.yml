@@ -84,7 +84,7 @@ jobs:
           github-token: ${{ secrets.GH_TOKEN }}
           github-tag: ${{ format('release/{0}', steps.data.outputs.ver) }}
 
-          name: ${{ format('Redstone Toolkit v{0}', steps.data.outputs.ver) }}
+          name: ${{ format('Redstone Toolkit v{0} for mc{1}', steps.data.outputs.ver, matrix.mc_ver) }}
           files: export/*.(mrpack|zip)
           loaders: fabric
           version: ${{ format('{0}+mc{1}', steps.data.outputs.ver, matrix.mc_ver) }}
@@ -136,7 +136,7 @@ jobs:
           github-token: ${{ secrets.GH_TOKEN }}
           github-tag: ${{ format('release/{0}', steps.data.outputs.ver) }}
 
-          name: ${{ format('Redstone Toolkit v{0}', steps.data.outputs.ver) }}
+          name: ${{ format('Redstone Toolkit v{0} for mc{1}', steps.data.outputs.ver, matrix.mc_ver) }}
           files: export/*.(mrpack|zip)
           loaders: fabric
           version: ${{ format('{0}+mc{1}', steps.data.outputs.ver, matrix.mc_ver) }}
