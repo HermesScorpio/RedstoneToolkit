@@ -17,7 +17,7 @@
 
 ## Changes
 
-- Removed all Modrinth mods for Curseforge modpack
+- Removed all Modrinth mods from Curseforge modpack
 
 ## Updates
 
@@ -45,12 +45,11 @@
   - Packet Fixer
   - Tweakeroo
   - WikiRenderer
-- 26.1-26.2-snapshot-3
-  - Fabric API
 - 26.1-26.1.2:
   - Axiom
   - Command Keys
   - Cubes Without Borders
+  - Fabric API
   - Lithium
   - ModernFix-mVUS
   - More Culling
