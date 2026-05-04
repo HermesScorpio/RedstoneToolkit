@@ -17,7 +17,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-block-entities.pw.toml"
-hash = "2299a5548709d785107357dfaf49c42dbea779e64518d125cb37b311fd4bada6"
+hash = "9dece3cb4179f895a59388a3c94b288a37641fad933f12bb844662b9c48868bc"
 metafile = true
 
 [[files]]
@@ -31,43 +31,18 @@ hash = "5e7cda7d7ecdf0d34287cde323f9013ff635b8105b21bdf9f89daf4de33112f0"
 metafile = true
 
 [[files]]
-file = "mods/carpet-extra.pw.toml"
-hash = "5b6a4f4c4977d04b9a58e4e3379d99ce4a430539f6ef1719396ef3e98b88b696"
-metafile = true
-
-[[files]]
 file = "mods/carpet-igny-addition.pw.toml"
-hash = "be5e41b0634016a77142360ad128feea6325c0e94c66e060899c57f06b895ee9"
+hash = "eafd764a13b33a4cfbdf377eb8e431f21d779d1090e3c6e6337a371b9e361e3a"
 metafile = true
 
 [[files]]
 file = "mods/carpet-tis-addition.pw.toml"
-hash = "f9a21f9e212d1b72dd1ae93a022f7174156c728fb2d62d3b5a780146934eddaa"
+hash = "112a6ece2c2e4c908d4fdc8ee35194d8de88a91414776c12b23f567b9ae2e59d"
 metafile = true
 
 [[files]]
 file = "mods/carpet.pw.toml"
 hash = "ed55fdea501426bbabdbe8f3ed4440158a17c435b978d5d38b4a926e53cdfd6f"
-metafile = true
-
-[[files]]
-file = "mods/carpetgui.pw.toml"
-hash = "fe4ede8223219d0a206c7f10bcd84c130407a677624dbda52f717a8eaf46bf99"
-metafile = true
-
-[[files]]
-file = "mods/chunk-debug.pw.toml"
-hash = "7dd4ecef868f9656f395dd4c502495f240d47560542b997b2284e68b7f1740b1"
-metafile = true
-
-[[files]]
-file = "mods/clear-despawn-reworked.pw.toml"
-hash = "fa815918bfabc29fef2a4c67b61c1b0a37885600f00117376fdf36c59bb10da4"
-metafile = true
-
-[[files]]
-file = "mods/client-commands.pw.toml"
-hash = "e6c63fb716619ccb4613ea3606fd242c2f4e2ea8d46bb877e42e7562300bb95b"
 metafile = true
 
 [[files]]
@@ -96,18 +71,13 @@ hash = "d5fbcbf3077d36f56b783d90ad1b51a9e2773052203ebab3aa564fc7ee4f152d"
 metafile = true
 
 [[files]]
-file = "mods/essentialaddons.pw.toml"
-hash = "324f951d42a4f4bea84562dd77ddbe91bd588c337cb0685ae2663cfb2a85f20d"
-metafile = true
-
-[[files]]
 file = "mods/fabric-api.pw.toml"
 hash = "6a9e19fada33c165b2aafa879179fb45de0eeb039bb0f4e9ca6bdb678441a656"
 metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "151e599df2c5f3df4234f50a3a6df42add337c8aaecb1a7d71340fe12f2482ca"
+hash = "4ad154c9ddc752ac8f6459aeaa4efafe2d79a30c6c6f9f252b94cbcacb8332be"
 metafile = true
 
 [[files]]
@@ -118,16 +88,6 @@ metafile = true
 [[files]]
 file = "mods/fastquit.pw.toml"
 hash = "f18dbe7322bf673b3a502bfc3df902250cde3868a720da6ffe9059c86cd7a71b"
-metafile = true
-
-[[files]]
-file = "mods/ferrite-core.pw.toml"
-hash = "816b735b2ad505476201800a99f527e61b392b712b9d20ca9edcce05f412fe87"
-metafile = true
-
-[[files]]
-file = "mods/forcecloseworldloadingscreen.pw.toml"
-hash = "bffcbe003188ed19d56276d728bbd2c4816cffc7ad5754a362a8417b6824ad29"
 metafile = true
 
 [[files]]
@@ -161,13 +121,8 @@ hash = "5bcf53ed6639c7a3652c45a4fec3f7bed00baad4bcadf1bc8d510056196a76d4"
 metafile = true
 
 [[files]]
-file = "mods/item-scroller.pw.toml"
-hash = "5c2abb405aafd8eba3698b940e1626fe12f12d0e5c998222f341cff1f89b6854"
-metafile = true
-
-[[files]]
 file = "mods/ixeris.pw.toml"
-hash = "6166fa6deff27fb217791e739bd45762ec6e4581a9438c5986f0c1f38ded0b0e"
+hash = "14f7021edd07ce9ea0b7ff05203f8b201c0922209a0a229aabd3e2a29cc86908"
 metafile = true
 
 [[files]]
@@ -247,22 +202,12 @@ metafile = true
 
 [[files]]
 file = "mods/packet-fixer.pw.toml"
-hash = "abe645d52a83bbd3238eb72510bd8960e2bd28f47418b3b58a5183711d894fbe"
+hash = "53a54efda6b0646261d223f986d1029f1a1114be19805591990310c1645ea9ca"
 metafile = true
 
 [[files]]
 file = "mods/particle-core.pw.toml"
 hash = "97031b6b81b885c263a152b3c69e5143bdf8926da7ee1c7c21b5dd31a6d42c4f"
-metafile = true
-
-[[files]]
-file = "mods/rail-placement-fix.pw.toml"
-hash = "23d33f96c15552404a7184ee58893a5efad7d97f203dda0f91598db1e1745e1d"
-metafile = true
-
-[[files]]
-file = "mods/redstone-multimeter.pw.toml"
-hash = "5fb7a2d1c59c97dfec514dd9f2cbbaafadee248f70f7a011123fab818f8b9b6f"
 metafile = true
 
 [[files]]
@@ -296,11 +241,6 @@ hash = "6c2dde8690f4953dbe99044b194651125e44e83a42c3c819288d59520e65cce8"
 metafile = true
 
 [[files]]
-file = "mods/sound-controller.pw.toml"
-hash = "cbe31523a511324897f507f664305b7696e5f682609f42a8c08effda13bdf889"
-metafile = true
-
-[[files]]
 file = "mods/spark.pw.toml"
 hash = "d289714952179b2d07c1fd59ef951d248cc93153d5d92cc499cb492472941b7e"
 metafile = true
@@ -316,16 +256,6 @@ hash = "1c2b6fbad56bb9480aa67366ef12d666e69dd043c1e8001c2b68f34f227e8cc4"
 metafile = true
 
 [[files]]
-file = "mods/syncmatica.pw.toml"
-hash = "2a30c4cf3b1132b219bbf45ce8c4626de461a74f5dd56ada03ae14528a6cbe11"
-metafile = true
-
-[[files]]
-file = "mods/techutils.pw.toml"
-hash = "07fdb37d854876c129bf6002d44dbce7fe70c7854101188d85094322560fd431"
-metafile = true
-
-[[files]]
 file = "mods/tweakermore.pw.toml"
 hash = "96070932a5da45ffc0065a7f364992b53f24de0f7d685e5ba266a306208e07c6"
 metafile = true
@@ -336,33 +266,8 @@ hash = "d220cb36df3eb8b1e58d501b9e4de70cda6e93cc0fa4f36ae6fd40d720069b5b"
 metafile = true
 
 [[files]]
-file = "mods/unobtainable-blocks.pw.toml"
-hash = "e620c847af24c12c8fa9eeff26f2be1b8e5a5e027ff7140efd2d4f73ddc258b4"
-metafile = true
-
-[[files]]
-file = "mods/viabackwards.pw.toml"
-hash = "68b697e910821f18c3023aa9105fcc88c29cc150b1570263ff6bc4dd2acd3bee"
-metafile = true
-
-[[files]]
 file = "mods/viafabric.pw.toml"
-hash = "65780f388abb6773da4db624e12ea1004cc405bec2ec682df2fa8b2f1c3e4abd"
-metafile = true
-
-[[files]]
-file = "mods/viaversion.pw.toml"
-hash = "c49524e48409fa3de0e2cdd72d94f1754c6a9c7d96953503ac97efa2b88e38a5"
-metafile = true
-
-[[files]]
-file = "mods/vkm.pw.toml"
-hash = "3422b61c9145885c82398ce38a341650bcfa7139c39ac157e51ddbc6f8a47b2a"
-metafile = true
-
-[[files]]
-file = "mods/wikirenderer.pw.toml"
-hash = "0210ab4d7483be715f41624e47836a16a7820303282ddd70ccc8c9f97df7690d"
+hash = "18474d0489552186c898ec2c29344c8e8fd3916d8033de0f4ea95abcf6a57951"
 metafile = true
 
 [[files]]

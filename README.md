@@ -6,6 +6,12 @@
 
 A collection of technical and performance‑oriented mods designed to support Technical Minecraft builds
 
+### Platform Notice
+
+The [CurseForge version](https://www.curseforge.com/minecraft/modpacks/redstonetoolkit) is a Trimmed Edition due to platform rules. For the full modlist, we highly recommend using the [Modrinth version](https://modrinth.com/modpack/redstonetoolkit) instead.
+
+### Note
+
 This pack includes several disabled mods, which are optional and can be enabled by the user if desired
 
 - This pack is built based on mods listed at [CommandLeo's Mod List](https://commandleo.github.io/minecraft-mod-list/)

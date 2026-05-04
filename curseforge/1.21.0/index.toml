@@ -42,37 +42,17 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-igny-addition.pw.toml"
-hash = "35b1a939cd9b960fd5c9e2ed69c97370ecc81caf4cd9d018efc545d97530ff79"
+hash = "11358cc86a71b71729fac949021f45456f8411b2b63f356dedbc4b5400272d1a"
 metafile = true
 
 [[files]]
 file = "mods/carpet-tis-addition.pw.toml"
-hash = "c43724f2d4ed5f3b15a125c0aacb0b377f4e9399267ed54566cf30afb9eca7b1"
+hash = "1138a13a17ffbd3c13551edd1946f7733beaf6121ca866c66c2a7c9d360fd8fb"
 metafile = true
 
 [[files]]
 file = "mods/carpet.pw.toml"
 hash = "48c6a4e310601532ac6a9e7f2f814128f75af9a541aee5a6e39d2d5475d967af"
-metafile = true
-
-[[files]]
-file = "mods/carpetgui.pw.toml"
-hash = "c8955bf8ab87a9157459da763e3db10a873870d40f0c639906014aec06f1fa8c"
-metafile = true
-
-[[files]]
-file = "mods/chunk-debug.pw.toml"
-hash = "db698511167597dc2d5763bf1e2dbc690c306accf4955cf816a9d24aadc8100e"
-metafile = true
-
-[[files]]
-file = "mods/clear-despawn-reworked.pw.toml"
-hash = "bdffabebf8e9f6af97f33c6deb65b30201e5eeb04967e060ba1212668ea1c154"
-metafile = true
-
-[[files]]
-file = "mods/client-commands.pw.toml"
-hash = "ee95f2988ccfd86818e83ea5b3bc50e09323f35139c85c6a6803f15e66b2d479"
 metafile = true
 
 [[files]]
@@ -96,16 +76,6 @@ hash = "437bd6df22bced17a4f5e0d8ac3bea8d2e3ecaf5e456847097c0232ffc5be1de"
 metafile = true
 
 [[files]]
-file = "mods/dashloader.pw.toml"
-hash = "bdf91f8af653154c34892856759bf18e32b8605c05fb9f072b187eef816193a4"
-metafile = true
-
-[[files]]
-file = "mods/doormat.pw.toml"
-hash = "5c4ddb9949086b7930450940df7a0fdeec0991d24ed04f405e256bca59268609"
-metafile = true
-
-[[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "44cd74f9a91a4039cbed08765e03c8957dce7ae6cbbff0c2fe97fae548ce47f2"
 metafile = true
@@ -121,11 +91,6 @@ hash = "bc27bbd402af2546a29636f4544f9ed7a3a6efc479b4b13659b92e30e75d03b7"
 metafile = true
 
 [[files]]
-file = "mods/essentialaddons.pw.toml"
-hash = "93a5c2f829c491cf8628c83767a687bc88c5401a71b5c878be73d74209b2bf24"
-metafile = true
-
-[[files]]
 file = "mods/fabric-api.pw.toml"
 hash = "8405864febccfb3af46c53983eeb8f69a985aaa1123f46b199fbe75fe908472c"
 metafile = true
@@ -137,7 +102,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "151e599df2c5f3df4234f50a3a6df42add337c8aaecb1a7d71340fe12f2482ca"
+hash = "4ad154c9ddc752ac8f6459aeaa4efafe2d79a30c6c6f9f252b94cbcacb8332be"
 metafile = true
 
 [[files]]
@@ -148,16 +113,6 @@ metafile = true
 [[files]]
 file = "mods/fastquit.pw.toml"
 hash = "9990538e9772ff01c632c7e097c02137bbdefb3638d1174c9a7a10aafb015099"
-metafile = true
-
-[[files]]
-file = "mods/ferrite-core.pw.toml"
-hash = "7167d442d5704438f8491ba69efa1c92d5719370bf63eea2c94ef4e12fbf6265"
-metafile = true
-
-[[files]]
-file = "mods/forcecloseworldloadingscreen.pw.toml"
-hash = "c6b04e4e163c34bab2da959d5b673b31568cf5c1fcf391158331da1799657855"
 metafile = true
 
 [[files]]
@@ -207,12 +162,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "82e1c8092ff5b1aa37f10db88adf06ea7703456ea22f116a2207df82eab44e9d"
-metafile = true
-
-[[files]]
-file = "mods/joacarpet.pw.toml"
-hash = "5653f9c96cf6e68bdcbd4480b43bde54bbf1a0b7bcca1168f56b9c28a38ed728"
+hash = "7052fcf56ed8ab44dc9e117dfffff87049a5787d7c645c5fa0bb0fbb0cf48b79"
 metafile = true
 
 [[files]]
@@ -233,11 +183,6 @@ metafile = true
 [[files]]
 file = "mods/litematica.pw.toml"
 hash = "084365491a525dccd7a0274d5cb0a4b00af3dd4deb55ddcd53d0663783db426d"
-metafile = true
-
-[[files]]
-file = "mods/litemoretica.pw.toml"
-hash = "b023470249c73e5e4b754b4bd311f82024b553897020e10e03d478b18f6446d8"
 metafile = true
 
 [[files]]
@@ -307,7 +252,7 @@ metafile = true
 
 [[files]]
 file = "mods/owo-lib.pw.toml"
-hash = "59f3b2e1679e710e694b04e712b2f79be11ec4f1591d831c3adaa86e16d0c1ef"
+hash = "3d4c202d2a73897b8daa4fef1c35ae340a888fd0142606f1eefb1d9b7c8e6a23"
 metafile = true
 
 [[files]]
@@ -328,11 +273,6 @@ metafile = true
 [[files]]
 file = "mods/rail-placement-fix.pw.toml"
 hash = "d31845b20d43934560dcd8ae124ddbc4314bcc9478ca5fd2d774a7ec7e0f5638"
-metafile = true
-
-[[files]]
-file = "mods/redstone-multimeter.pw.toml"
-hash = "b62d397edbc9baab0ade1f070af91bd8cbb31461b0fa600e92914c68d69a16de"
 metafile = true
 
 [[files]]
@@ -366,11 +306,6 @@ hash = "f73a48751e13380b87296e5b9627c9f6669efda386bd646fd5c499b344570f46"
 metafile = true
 
 [[files]]
-file = "mods/sound-controller.pw.toml"
-hash = "51fe4c68e99d25ebbb47ef99a28a8ceeeca038c5e9e24d571d3822f79ef04d50"
-metafile = true
-
-[[files]]
 file = "mods/spark.pw.toml"
 hash = "f5031d53eb32a7b25e0c2347f599805679a49073b86ed4450ca60ec9b72086d1"
 metafile = true
@@ -383,16 +318,6 @@ metafile = true
 [[files]]
 file = "mods/suggestion-tweaker.pw.toml"
 hash = "1c2b6fbad56bb9480aa67366ef12d666e69dd043c1e8001c2b68f34f227e8cc4"
-metafile = true
-
-[[files]]
-file = "mods/syncmatica.pw.toml"
-hash = "2abab42cc7f1a19201d0e100d855c5a154dd440d125a49800e74820016bf1c72"
-metafile = true
-
-[[files]]
-file = "mods/techutils.pw.toml"
-hash = "72022494b54659e2a8622492f29545f33294b098cf921aaebc1310b004e5226b"
 metafile = true
 
 [[files]]
@@ -411,23 +336,8 @@ hash = "9f8fa92803abd8e173aa050786a36710be334a45a7f84ac34d0967acae8e9b1d"
 metafile = true
 
 [[files]]
-file = "mods/viabackwards.pw.toml"
-hash = "68b697e910821f18c3023aa9105fcc88c29cc150b1570263ff6bc4dd2acd3bee"
-metafile = true
-
-[[files]]
 file = "mods/viafabric.pw.toml"
 hash = "2c2b7628d15be140e27e8bab42676babdf407d25d645c905cc89985c12aedb87"
-metafile = true
-
-[[files]]
-file = "mods/viaversion.pw.toml"
-hash = "c49524e48409fa3de0e2cdd72d94f1754c6a9c7d96953503ac97efa2b88e38a5"
-metafile = true
-
-[[files]]
-file = "mods/wecuifix.pw.toml"
-hash = "f1845133f1c212416bc8e072d2bda067a62cb6e667acfd146f6ab3be43e73e13"
 metafile = true
 
 [[files]]
@@ -443,11 +353,6 @@ metafile = true
 [[files]]
 file = "mods/worldeditcui-fabric.pw.toml"
 hash = "8b364a15f157a6be755a25f12dc2a61e190b0d9f61f91c633f01177d6d315ce2"
-metafile = true
-
-[[files]]
-file = "mods/yaca.pw.toml"
-hash = "c5e035df48cb04593f6b742b3df6761b477741ad9d4710da25e43014115bfedc"
 metafile = true
 
 [[files]]
