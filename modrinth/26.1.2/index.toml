@@ -116,6 +116,11 @@ hash = "52853717263ca0611746ee56d66635fef75c80ba16bc97f44166ed0478f22c82"
 metafile = true
 
 [[files]]
+file = "mods/fastquit.pw.toml"
+hash = "282cc97253e4b897d827afbf2a0e1ae5dd19500d5255bdbcc5bb8ceea3ebe1a7"
+metafile = true
+
+[[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "069d81cab53c0141459ad4d70bcf3e10f17652f24cc62d3b4a0fc2cd2b700871"
 metafile = true
@@ -243,6 +248,11 @@ metafile = true
 [[files]]
 file = "mods/packet-fixer.pw.toml"
 hash = "44de8b95afa9b4c72c2123ee2cb853657af538ae6a0405ccc0128dd6d5830b86"
+metafile = true
+
+[[files]]
+file = "mods/particle-core.pw.toml"
+hash = "5f482c62b32f8f639a19640518cd77bc60d73bb422bcf7378eb1ced0680a2573"
 metafile = true
 
 [[files]]
