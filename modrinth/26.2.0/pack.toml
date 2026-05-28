@@ -1,16 +1,25 @@
 name = "RedstoneToolkit"
 author = "Scorpio"
-version = "0.11.0"
+version = "0.11.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "1ed4612abea2b483f28d34e29bceffbc9fbfefcbb58f42e6490f0bee67835ad8"
+hash = "8e61e80e5ea63da8a44cd6de64be725f1f2c3f1d66f51ec25a7b7f9c23f42ed6"
 
 [versions]
 fabric = "0.19.2"
 minecraft = "26.2-pre-2"
 
 [options]
-acceptable-game-versions = ["26.2-snapshot-1", "26.2-snapshot-2", "26.2-snapshot-3", "26.2-snapshot-4", "26.2-snapshot-5", "26.2-snapshot-6", "26.2-snapshot-7", "26.2-snapshot-8"]
+acceptable-game-versions = [
+    "26.2-snapshot-1",
+    "26.2-snapshot-2",
+    "26.2-snapshot-3",
+    "26.2-snapshot-4",
+    "26.2-snapshot-5",
+    "26.2-snapshot-6",
+    "26.2-snapshot-7",
+    "26.2-snapshot-8",
+]

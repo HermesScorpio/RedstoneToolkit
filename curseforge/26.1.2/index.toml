@@ -52,7 +52,7 @@ metafile = true
 
 [[files]]
 file = "mods/cubes-without-borders.pw.toml"
-hash = "7a1f83ce7641ef09e9df0d60c2d1f76f77821b16937f75858801ad0725064dc5"
+hash = "8bdcdd7aac398e800e1ab05b54249896fc5b28f6f03041fa8c258bdff6500ebd"
 metafile = true
 
 [[files]]
@@ -62,7 +62,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "0e4c05edb41c24531e2a5df5be5d0a871a961ac61a6794ec98c4b80347a467a9"
+hash = "ff892a3c57ccec433c013ab29243199bc08e80876f940e7adf9e92d765670901"
 metafile = true
 
 [[files]]
@@ -112,7 +112,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "21aa0f66659be1a33ac4f2b45123bb3f01ee8e7a5dc96579376d9bcd15d61ec2"
+hash = "00c7f135619331676cb24003a5970774891a5738105ab40ba7f61d00a75b0734"
 metafile = true
 
 [[files]]
