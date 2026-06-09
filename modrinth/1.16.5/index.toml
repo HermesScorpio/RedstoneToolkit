@@ -97,7 +97,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "337d97b990f76c91584b12600651ae7bd47a0824e45070b3d9330b0922149fc0"
+hash = "9d37d326d9557fdd25c97d72ac1bbd1e74c524aa5dca437a91d0de645dff6545"
 metafile = true
 
 [[files]]
@@ -142,7 +142,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "8d54d15a9b761916917b08cb12fc6ecab5065e15d49f1cbb73299c8881f8bfff"
+hash = "28a71f23eaf86bbb4ef3668d32ae1962d8f2f6519abb00e58e76bec005966f65"
 metafile = true
 
 [[files]]
