@@ -27,7 +27,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me.pw.toml"
-hash = "c599d0cc22977efdee1929ea7a8f023a24e4a46d2cf504b328e31f9356912f0e"
+hash = "cc3ece264864f0fe67e7ad8d9bc2b6c85191921af42002b8e7d9ed6f7afa61c3"
 metafile = true
 
 [[files]]
@@ -213,11 +213,6 @@ metafile = true
 [[files]]
 file = "mods/malilib.pw.toml"
 hash = "406f8238dae71078ec054a3ab2bcb5a1fa5c00c608a3f265c180dcea66a95d79"
-metafile = true
-
-[[files]]
-file = "mods/masa-gadget.pw.toml"
-hash = "ff806f437f54b68d765da6c5bc8f9cd617aacc4fa0facc4b66faaa0aa6595355"
 metafile = true
 
 [[files]]

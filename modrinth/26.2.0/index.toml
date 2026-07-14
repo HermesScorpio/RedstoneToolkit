@@ -27,7 +27,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "867f1c762e964cea6bb9dc48c8c2d7e134a6864ad9a5c949d9cb7457d3538ecd"
+hash = "d5442d12c701ea10a0a426a39eec718578dc5e9cdba1e46538abdee546c58e62"
 metafile = true
 
 [[files]]
@@ -302,7 +302,7 @@ metafile = true
 
 [[files]]
 file = "mods/voxy.pw.toml"
-hash = "d9605d42eb7c0d52c20c25a909aa95dd93794cc2d5f61518dc831e0e0d614c12"
+hash = "cfcf50a2114890efafba5b0ff81fa40c6cd93856ff14ac93fbe1d060c85c8062"
 metafile = true
 
 [[files]]
