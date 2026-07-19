@@ -1,0 +1,13 @@
+name = "G4mespeed"
+filename = "g4mespeed-1.6.1-mc26.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/gW29KsnL/versions/KwnkHbt9/g4mespeed-1.6.1-mc26.2.jar"
+hash-format = "sha512"
+hash = "549427c5dcedaba3d01edfdedbd98bcf1bb3c3600653dffa5142825f8cf6f6c3b35f0a27f40b3d088582d04882f57d8b67002fb774b6788e96751ea0ab1d976a"
+
+[update]
+[update.modrinth]
+mod-id = "gW29KsnL"
+version = "KwnkHbt9"

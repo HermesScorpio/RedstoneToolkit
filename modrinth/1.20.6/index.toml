@@ -47,7 +47,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-tis-addition.pw.toml"
-hash = "489a7b2f315978c3ac3a70e8e46033d2cee09f5fe3280ca21f64afed58792175"
+hash = "b56e55d79dea4a9bd8371ed832b0ac5b6c9fa7f04184744092eb39a5369edff9"
 metafile = true
 
 [[files]]
@@ -137,7 +137,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "9d37d326d9557fdd25c97d72ac1bbd1e74c524aa5dca437a91d0de645dff6545"
+hash = "2a760e528bf27c3eb4ae7c06200d91ee9c2849295addaa2add05495c7dee9528"
 metafile = true
 
 [[files]]
@@ -167,7 +167,7 @@ metafile = true
 
 [[files]]
 file = "mods/g4mespeed.pw.toml"
-hash = "c5be2d8c61d53f8b8d9ca619120933af3caeeec1b12182219ce53b3eb2d5c62d"
+hash = "d4360d271d0da7997e568879ce851acb20a300811e806bf23d7f1e8aca70d2ef"
 metafile = true
 
 [[files]]

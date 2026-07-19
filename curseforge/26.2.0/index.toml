@@ -17,12 +17,12 @@ metafile = true
 
 [[files]]
 file = "mods/better-block-entities.pw.toml"
-hash = "5d10543383161459d7bbc55eea31fb8c8f46f9d7fa197b5d240fe5c9b2e90f12"
+hash = "00e7d6c134291cb721ff4b149744acb12f500935e7cb79ef992dfdc7248fca03"
 metafile = true
 
 [[files]]
 file = "mods/c2me.pw.toml"
-hash = "6d77ebed7e901ed3167c4655241dbe2dad37db2b86a42d3cbbade0f8d0b74bb1"
+hash = "07888039cd6e318a6ca4cb4aa3196025a1f17203d9fa9b86b5dbc45e912c5e5e"
 metafile = true
 
 [[files]]
@@ -32,7 +32,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-tis-addition.pw.toml"
-hash = "e85c3785add0b09a30dded8152f8e1be4736bbb47818f9d70d1584812fceb890"
+hash = "0ef7fdf9bb99fde519623f15d71005c5c5c9ef67f3edf96de177e58a12b395df"
 metafile = true
 
 [[files]]
@@ -72,17 +72,22 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "e49d402e9dbbb299b2a56e94e026b17f942954e17c1ef73f7fe729189ba1f36a"
+hash = "71b075b5f9322bd8d5512f07f023c670e6842c4800357f691edb055b4cfe0c19"
 metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "69c0b14fe1ceb54fc531c65d527de02d3a1bc51505b71a7346bdd548e00379bf"
+hash = "704a42a40185a75cf00b255e8935df11d0311fd9a5506b1c2a1b4ddd03b5919a"
 metafile = true
 
 [[files]]
 file = "mods/fzzy-config.pw.toml"
 hash = "1068cf3361a907f6baad2254d2bcdf75148ad326bebab1ac68e0828a6b452d82"
+metafile = true
+
+[[files]]
+file = "mods/g4mespeed.pw.toml"
+hash = "6e255d5804645dcdcefb09d40a9768a4b26f885f5f8a4bf35d2c4a1116b91331"
 metafile = true
 
 [[files]]
@@ -113,6 +118,11 @@ metafile = true
 [[files]]
 file = "mods/ixeris.pw.toml"
 hash = "eeba1585adb26662bd061d4d2f099f27622481f15b03fcc8a73de81bb3340e5b"
+metafile = true
+
+[[files]]
+file = "mods/krypton.pw.toml"
+hash = "aabea8067dc0c6babeaf81aa13791d174d973d94ece47ad0428f89ce9406874a"
 metafile = true
 
 [[files]]
@@ -177,7 +187,7 @@ metafile = true
 
 [[files]]
 file = "mods/packet-fixer.pw.toml"
-hash = "2245502cbabd5ec1bb7537b5ef222337defd305352eb1310b2ac207d5d669d00"
+hash = "f249d3d745c6217d8fb943f715d0c31d9c63e17bab26ee909caec2315ee68561"
 metafile = true
 
 [[files]]
@@ -257,7 +267,7 @@ metafile = true
 
 [[files]]
 file = "mods/zfastnoise.pw.toml"
-hash = "7b06968e492f0349ff822141da900d7b606ce9ef92a938e640ed492d2e96b518"
+hash = "64fa8a53cf8a189ca25a802fcf6916afb04718c0c470688b3daa9b1a281b0854"
 metafile = true
 
 [[files]]

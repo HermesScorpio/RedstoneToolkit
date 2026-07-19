@@ -7,7 +7,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-tis-addition.pw.toml"
-hash = "073b93723ea0ef93b730e50362890e0f8fc1b4c923070690f8125f6886e9594c"
+hash = "67c8e25e754794746f17b491ea7ed590ec06420af65f28220eb5727d8ca8a6d4"
 metafile = true
 
 [[files]]
@@ -17,7 +17,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "4fdf8fc8db9c769f2970283f28971ea0080f1840d0e51aaf559795bc531ada08"
+hash = "815a711e52f2fb70a714c453db7f2160d2fbc542fa159f414a0a1c0ddf323181"
 metafile = true
 
 [[files]]

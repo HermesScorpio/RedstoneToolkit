@@ -1,13 +1,13 @@
 name = "G4mespeed"
-filename = "g4mespeed-1.6.1-mc26.1.2.jar"
+filename = "g4mespeed-1.6.1-mc26.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "a8c68d1fb6213f5f222e43fa16a69c830bad4748"
+hash = "cc31bae66c5c59dfd79810c2c16fb2fe7e7f0966"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8446226
+file-id = 8446234
 project-id = 544459
