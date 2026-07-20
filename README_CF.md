@@ -72,7 +72,7 @@ These mods are enabled by default and recommended to the user
 - [FerriteCore](https://modrinth.com/mod/ferrite-core) - Memory usage optimizations
 - [ImmediatelyFast](https://modrinth.com/mod/immediatelyfast) - Speeds up the immediate mode rendering performance of the client
 - [Ixeris](https://modrinth.com/mod/ixeris) - Offloads event polling to a separate thread, freeing CPU for rendering
-- [Krypton](https://modrinth.com/mod/krypton) - Optimises the Minecraft networking stack
+- [Krypton](https://modrinth.com/mod/krypton) [[4]](#ref-4) - Optimises the Minecraft networking stack
 - [Lithium](https://modrinth.com/mod/lithium) - Improves server-side performance without affecting vanilla game logic
 - [ModernFix](https://modrinth.com/mod/modernfix) [[2]](#ref-2) - Improves performance and reduces memory usage
 - [ModernFix-mVUS](https://modrinth.com/mod/modernfix-mvus) - A fork of ModernFix that adds minor version update support on versions >=1.21.5
@@ -196,7 +196,7 @@ These mods are disabled by default and can be enabled if desired
 - [Respackopts](https://modrinth.com/mod/respackopts) - Adds config menus for resource packs; recommended for Redstone Tweaks users
 - [SchematicPreview](https://modrinth.com/mod/schematicpreview) 鈥?Adds 3D previews and a material "replace" button to Litematica
 - [Sound Controller](https://modrinth.com/mod/sound-controller) - Provides complete control over the volume of every sound in the game
-- [ViaFabricPlus](https://modrinth.com/mod/viafabricplus) 鈥?Allows connecting to almost any Minecraft server version and includes various client-side fixes for older protocol versions.
+- [ViaFabricPlus](https://modrinth.com/mod/viafabricplus) [[4]](#ref-4) 鈥?Allows connecting to almost any Minecraft server version and includes various client-side fixes for older protocol versions.
 
 
 
@@ -217,7 +217,8 @@ These mods are disabled by default and can be enabled if desired
 
 <a id="ref-1"></a>[[1]](#ref-1) [DashLoader](https://modrinth.com/mod/dashloader) and [Enhanced Block Entities](https://modrinth.com/mod/ebe) are not compatible in versions 1.16.5 and 1.19.4  
 <a id="ref-2"></a>[[2]](#ref-2) [DashLoader](https://modrinth.com/mod/dashloader) and [ModernFix](https://modrinth.com/mod/modernfix) are not compatible in versions 1.16.5 - 1.18.2  
-<a id="ref-3"></a>[[3]](#ref-3) [Essential Addons](https://modrinth.com/mod/essentialaddons) are not compatible with [ChunkDebug](https://modrinth.com/mod/chunk-debug) and [EssentialClient](https://modrinth.com/mod/essential) in version 1.16.5
+<a id="ref-3"></a>[[3]](#ref-3) [Essential Addons](https://modrinth.com/mod/essentialaddons) is not compatible with [ChunkDebug](https://modrinth.com/mod/chunk-debug) and [EssentialClient](https://modrinth.com/mod/essential) in version 1.16.5  
+<a id="ref-4"></a>[[4]](#ref-4) [Krypton](https://modrinth.com/mod/krypton) and [ViaFabricPlus](https://modrinth.com/mod/viafabricplus) are not compatible in version 1.19.4
 
 ## Resource Packs
 
