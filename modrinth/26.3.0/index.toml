@@ -2,17 +2,12 @@ hash-format = "sha256"
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "55e984844c0a1e82575f794c3ec74d50952dc4cf306f1ae30ced6118e72b60b9"
+hash = "c3af0ae11a4eccdd947011347e05aa4ac9c76d16660b16de7781be968e45d31b"
 metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "e1ff7493b3c0358d4a8cae563a9c13d7e422f056be7e438d186e395a5fa9f90b"
-metafile = true
-
-[[files]]
-file = "mods/ixeris.pw.toml"
-hash = "a7b71977982ceac78624e4bb8d7e7596926fd24802742764c328fd187a6c2d90"
+hash = "b073c45f3a8b7aa14f847d7d5a270a656deb68ac2f77ad11f10be69f8486bf0b"
 metafile = true
 
 [[files]]
@@ -22,5 +17,5 @@ metafile = true
 
 [[files]]
 file = "mods/zfastnoise.pw.toml"
-hash = "71f44bd10628bc3e997e3682217a2c3e80e3d2d57aa966f2b7f5169d586eca54"
+hash = "964df07def61e1c1d3c27be571d3a95fc0db9c3c307d926eaf492a717829cc5d"
 metafile = true
