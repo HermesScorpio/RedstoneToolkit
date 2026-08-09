@@ -37,12 +37,12 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-igny-addition.pw.toml"
-hash = "bb76659f5b82b7440cac8694c7e3dc5cb01c79776f4bce21db0bedd3d896bfd5"
+hash = "0a4f592799c5bf58abe4f741890fb5660edad7aeb4b8fda7a981550a157ba4dd"
 metafile = true
 
 [[files]]
 file = "mods/carpet-tis-addition.pw.toml"
-hash = "0319793f18073adb2c2ada215eeaeafdad880349645c387ae4cdc5d21763768e"
+hash = "10243c8a45cd5e5c321d0f45ed339d42a2af49a3a9e55ee5f5042db156ad431e"
 metafile = true
 
 [[files]]
@@ -277,7 +277,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "4651334ca774c5ab2429135327e8fee5f9264f46828397691c3b9af94da9af87"
+hash = "b0d722aa3b463fddb3a425affdc9e6c898a657040321e8c6501b089d8f7caee2"
 metafile = true
 
 [[files]]
@@ -307,7 +307,7 @@ metafile = true
 
 [[files]]
 file = "mods/tweakermore.pw.toml"
-hash = "580f77215104d61d61e0e1b95142700072a5ad2a585717fac64aed068d24511e"
+hash = "ad1aef4e75983cd0b28a88ec75ccbcc9ffe95ab961c902808e264dd464072449"
 metafile = true
 
 [[files]]
@@ -337,7 +337,7 @@ metafile = true
 
 [[files]]
 file = "mods/worldedit.pw.toml"
-hash = "a5aa463f5c92f9c45aa3a83d99b981363f243249d45981cf36812aeb8d6137b5"
+hash = "b96226a55796289dff27d431456c291ebf39cc019e864564d60abe50bc20d092"
 metafile = true
 
 [[files]]

@@ -37,12 +37,12 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-igny-addition.pw.toml"
-hash = "a17ed6957519f422347e9f2d74416b67b64a5e01844bd0c47c0e746ff58a63a8"
+hash = "cc6bec798a211e04d17a79f1a4dc64e2567eb0f0e704f6b6c0bebba9be984f2e"
 metafile = true
 
 [[files]]
 file = "mods/carpet-tis-addition.pw.toml"
-hash = "2b53c3bd465ccbe1ccaaa0f4c446d8d33cff5bdbb11eeb2d8832b213b24687c6"
+hash = "cbed25339d4ab68529ed7c9a936c774ada07b516e8d660458ad079532a4f758c"
 metafile = true
 
 [[files]]
@@ -327,7 +327,7 @@ metafile = true
 
 [[files]]
 file = "mods/tweakermore.pw.toml"
-hash = "c65921aef7e6a44d6539d271d9236adba0eb51a96f8577060616d82be9ca7e9d"
+hash = "e63563ac8b7b3d66e80edb7a2e43b83128aa540cf06d3237462da75ab2bc525a"
 metafile = true
 
 [[files]]
