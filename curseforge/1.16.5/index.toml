@@ -42,7 +42,7 @@ metafile = true
 
 [[files]]
 file = "mods/crash-assistant.pw.toml"
-hash = "1e55730e91ddc1c7c5ccd51c9c1d45240ac834ae85a9f30e2739717e8e66baad"
+hash = "e7f1b389c082b87cecb8c00294ed9371508aedc37116b5fb2d5592bb1d118d09"
 metafile = true
 
 [[files]]
@@ -127,7 +127,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "41357c493ba173c7e51c145b3a0416eea5797f143bc4d0251d057d5196ee8735"
+hash = "8572b81276346400905ad6c2a7cca0a379682670b317c964f5281a5a5f14dadc"
 metafile = true
 
 [[files]]
@@ -247,7 +247,7 @@ metafile = true
 
 [[files]]
 file = "mods/tweakermore.pw.toml"
-hash = "7f4eda2ba46e2d6516912899ff728f00d2e2184f0c6f552d0eccc903ce669a7a"
+hash = "fe2a465f5115671f76e6f20d32b4cb5d8f03edd7163b57de5171d5da1e503cf9"
 metafile = true
 
 [[files]]

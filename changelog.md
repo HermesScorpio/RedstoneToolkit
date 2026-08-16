@@ -22,6 +22,7 @@
 
 - 1.16.5-26.2:
   - Carpet TIS Addition
+  - Crash Assistant
   - Fabric Language Kotlin
   - Ixeris
   - TweakerMore
@@ -36,6 +37,7 @@
   - Fabric API
   - Fast Noise
   - More Culling
+  - Packed Packs
   - Sodium
 - 26.1.2-26.2:
   - Better Block Entities
@@ -50,6 +52,7 @@
   - oωo (owo-lib)
 - 26.2:
   - clientcommands
+  - EssentialAddons
   - FastQuit
   - Krypton
   - Packet Fixer

@@ -22,7 +22,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me.pw.toml"
-hash = "369d11960e14d6d83b24bb4f5d3bb0c924f44fbe47da0c76f40adc502649232d"
+hash = "27161a83e057b88dbd1c890d2df931fee6a368f05d3b5104e1c6e4c1f737e396"
 metafile = true
 
 [[files]]
@@ -57,7 +57,7 @@ metafile = true
 
 [[files]]
 file = "mods/crash-assistant.pw.toml"
-hash = "4378f995a69597e2be001d52e0e03da5c314adab309661bd4b8be88402796162"
+hash = "8bfb80886b0894250a986e7647ab3c8b771724424d3b26a6e60682a4ae340771"
 metafile = true
 
 [[files]]
@@ -72,7 +72,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "79c704772a1552ffe5753080b261c52d9694874d1b94ce86c3373e8b92c7168f"
+hash = "1c34e2880069049be00f1752349bd20c97df7b3a79ca8260a2714d7b2d27ab87"
 metafile = true
 
 [[files]]
@@ -122,7 +122,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "9f748c6a9169617bd3ada95237e6a929ce1f84680f97f12f0bef964fcbae76c0"
+hash = "79901de869bbcbee5a092d62711ab9c4751ad006804286aa5b205271c94fdf48"
 metafile = true
 
 [[files]]
@@ -187,7 +187,7 @@ metafile = true
 
 [[files]]
 file = "mods/packed-packs.pw.toml"
-hash = "bec67b83ed5c826aae77a21e790dccd917978b529f2dea0cff5e5a5478067a51"
+hash = "abeee4c4f4a88813260b0786b68f4ac7062dbb74ff553f70b65a5cbe701dd40f"
 metafile = true
 
 [[files]]
@@ -237,7 +237,7 @@ metafile = true
 
 [[files]]
 file = "mods/tweakermore.pw.toml"
-hash = "64140c191dfb0966f9930580f3cfe02561a6292884b86d8f7cd999ceb4d3c4ee"
+hash = "17a4f843f5f12843e32e1522e17e7c7c76d33cc7ac4935ee338e5ded9189ddc7"
 metafile = true
 
 [[files]]
@@ -252,7 +252,7 @@ metafile = true
 
 [[files]]
 file = "mods/worldedit.pw.toml"
-hash = "396f75a4be44cdb72f3a8303126f8b07318bc46cb2c618b8e08531088d53fa7c"
+hash = "1ae131ffd981a7155b8bf50df7c500589f8e549edf523599ed7d80455d3f0d01"
 metafile = true
 
 [[files]]
@@ -272,7 +272,7 @@ metafile = true
 
 [[files]]
 file = "mods/zfastnoise.pw.toml"
-hash = "64519d8556d172b8d11e8d6e057c76524f541eeb1b29b8464f2ec325cdb2085e"
+hash = "cc1a8ab2c65a00ea0a9ba80dbcbe44eab71485e3319bbfda8f7427b87741da84"
 metafile = true
 
 [[files]]

@@ -27,7 +27,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "d4a5cca36026949f614c0256b06626929118e14b2de9c430a353a8c991e3e762"
+hash = "b36493d35e6e9a5c1ff2926e51bdb8eed8deb103e5c680d8fd1ef66603c103b6"
 metafile = true
 
 [[files]]
@@ -92,7 +92,7 @@ metafile = true
 
 [[files]]
 file = "mods/crash-assistant.pw.toml"
-hash = "5ddc0deaf72aa139e5ad698049973a84a46f508521dd68762b88e1a605684aa4"
+hash = "80ee1d38ad30728520c1d65fdb17d396da6e7f9b0ae8506b74e5ca1a97ab49d5"
 metafile = true
 
 [[files]]
@@ -217,7 +217,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "e5d035987cbb9668547b33c62953f0453450f3cf9bee25ea04a7cd9c5e9315ad"
+hash = "118e817308a89de04cd589f1ee0faa50b41a4956b157008576f49428cda6d93d"
 metafile = true
 
 [[files]]
@@ -317,7 +317,7 @@ metafile = true
 
 [[files]]
 file = "mods/packed-packs.pw.toml"
-hash = "b5cbf684d2e174200d3bf03e98dbb6785c91fa9f405c1ba744e66e3b898506e9"
+hash = "f81b68661eee361078ae135f3d8518473aa5933c62472e8b24265edce8b88973"
 metafile = true
 
 [[files]]
@@ -412,7 +412,7 @@ metafile = true
 
 [[files]]
 file = "mods/tweakermore.pw.toml"
-hash = "fe1f8e69d2cf34908325c1677ba5e1c281e59467442975e508af0cf921b49bc8"
+hash = "a4402f58a3f4c00f6be857336114af7b3134382a0db260e48e36e4fab7ca7b71"
 metafile = true
 
 [[files]]
