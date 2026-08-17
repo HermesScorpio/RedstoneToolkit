@@ -1,21 +1,2 @@
 hash-format = "sha256"
-
-[[files]]
-file = "mods/c2me-fabric.pw.toml"
-hash = "7a8f230c1c1d6f24bd760b07f6f7e07af86f5e7b4ca4966a5de5f372e1a3107f"
-metafile = true
-
-[[files]]
-file = "mods/fabric-api.pw.toml"
-hash = "f0626766a45567d2de70868515c68a22bb0e3b0b86d5c688b89e72cd329bd05e"
-metafile = true
-
-[[files]]
-file = "mods/ixeris.pw.toml"
-hash = "45ced67dca457f198e5097c2de6361bffece420a247ef0e13d08509e088f146d"
-metafile = true
-
-[[files]]
-file = "mods/zfastnoise.pw.toml"
-hash = "fa656876849d006b583b677746c7afadaaac2337342e12a522d80f92fd39a6d5"
-metafile = true
+files = []
