@@ -26,8 +26,13 @@ hash = "27161a83e057b88dbd1c890d2df931fee6a368f05d3b5104e1c6e4c1f737e396"
 metafile = true
 
 [[files]]
+file = "mods/capture-playback.pw.toml"
+hash = "2d114aa19eda0897a9b71175bf53395b9d28abf4c29a0c480a58918a318e3763"
+metafile = true
+
+[[files]]
 file = "mods/carpet-igny-addition.pw.toml"
-hash = "38d0b36748fe0f6a2526673bcf1a2646ba1007376f103533a46a5f561ec7163d"
+hash = "a4ed56a312ebc199525201855263db1c852779ffd4446dbd59c6ea97a6d5bd64"
 metafile = true
 
 [[files]]
@@ -72,7 +77,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "1c34e2880069049be00f1752349bd20c97df7b3a79ca8260a2714d7b2d27ab87"
+hash = "3e91c4324a39c915a7668b744339fca7a5e0a3b234b0de69816a8f38ef3238be"
 metafile = true
 
 [[files]]
@@ -102,7 +107,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "1a4e9aaa6fe056d5e75188417a03d3b76eaf8dcc116cd08bfea86971d151af2f"
+hash = "848d7bdc39c57f75174521d1cab2e76695d876a8bd8b298e64d8cbba2f1804fb"
 metafile = true
 
 [[files]]
@@ -182,7 +187,12 @@ metafile = true
 
 [[files]]
 file = "mods/no-chat-reports.pw.toml"
-hash = "795e3b003ef8781849d68438569009591ada70c7cfb61dcf8ad5f3a53258f794"
+hash = "34d5169e24bd0f31d97d0e19da118a2e3144b867534b65d4de829845e011afc5"
+metafile = true
+
+[[files]]
+file = "mods/owo-lib.pw.toml"
+hash = "4929adf194ee966b1d74079b56e74aacfb15b7ed01180520d1451cf85fb094e0"
 metafile = true
 
 [[files]]
@@ -216,6 +226,11 @@ hash = "644017ec669b0560eedbb488f39d0e43183f635173da320ba151989fb65a435d"
 metafile = true
 
 [[files]]
+file = "mods/schematicpreview.pw.toml"
+hash = "7feebb32e6d7c43fa112cce977bbf689d765b55795edc97cdc88ebdf035f99d0"
+metafile = true
+
+[[files]]
 file = "mods/sodium-extra.pw.toml"
 hash = "5e15de80352e345a51e6438ceb1df99f3201eaaaba59640c7591dfa96f8e24ef"
 metafile = true
@@ -237,7 +252,7 @@ metafile = true
 
 [[files]]
 file = "mods/tweakermore.pw.toml"
-hash = "17a4f843f5f12843e32e1522e17e7c7c76d33cc7ac4935ee338e5ded9189ddc7"
+hash = "c0646db849957b5f353492a3849166f750f3eb1e9b323c79ec113d1d8846387e"
 metafile = true
 
 [[files]]
@@ -247,7 +262,7 @@ metafile = true
 
 [[files]]
 file = "mods/viafabricplus.pw.toml"
-hash = "6853871c49f790748fb71e797c920e4074afe78f5d4794fc4d45b040426351b1"
+hash = "9c93ff8ccab300123bc8a6df409e03dfa46a043d5d8cec4fa5fccb0e3e05be4d"
 metafile = true
 
 [[files]]

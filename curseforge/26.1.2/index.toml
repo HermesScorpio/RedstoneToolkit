@@ -27,7 +27,7 @@ metafile = true
 
 [[files]]
 file = "mods/capture-playback.pw.toml"
-hash = "fc2d4058f9380ed7c7703b1e5dc6dcfe100a3f648806582fa2be7f1de04c3bc1"
+hash = "1032ee61345496513023ad6d7301b0d9a6f3728bf5154e33608ce179ba2dbfca"
 metafile = true
 
 [[files]]
@@ -37,7 +37,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-igny-addition.pw.toml"
-hash = "2021951ed734f38ade09f7bef0f3bdfe7b40b4f7ef7c9422d00d628f37601aeb"
+hash = "820c5b5a2262208e8996001d23c063bb6953de3183e5fd56501e42731502c9b1"
 metafile = true
 
 [[files]]
@@ -247,7 +247,7 @@ metafile = true
 
 [[files]]
 file = "mods/schematicpreview.pw.toml"
-hash = "9b937666754d957315c7815ab2bd4d519fcaaef834133330501cfafc6366fa16"
+hash = "c4df02bef530d240df9cc551e1126ec595a570e76206d8446544db32028765c1"
 metafile = true
 
 [[files]]
@@ -272,7 +272,7 @@ metafile = true
 
 [[files]]
 file = "mods/tweakermore.pw.toml"
-hash = "22c71869fd5c508c6f5c8d827009ffeb13f4153838c3bd452860a86f1e67a39f"
+hash = "844e62b732d14556c573560e20e208b8b45916d22a8b03e2e404e7d01802bc19"
 metafile = true
 
 [[files]]

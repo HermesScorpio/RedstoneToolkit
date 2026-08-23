@@ -1,12 +1,12 @@
 name = "SchematicPreview"
-filename = "schematicpreview-0.0.16+1.21.11.jar.disabled"
+filename = "schematicpreview-0.0.17+1.21.11.jar.disabled"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/OC1Ud2T4/versions/drhz3vaw/schematicpreview-0.0.16%2B1.21.11.jar"
+url = "https://cdn.modrinth.com/data/OC1Ud2T4/versions/v9HISiZs/schematicpreview-0.0.17%2B1.21.11.jar"
 hash-format = "sha512"
-hash = "3e4522bdc42213c1a49c5283ec26aa1410b56de74911da58b7865a16e236b06e7a947f9c8fee0402d657ffff65d95be4482d4c68da7e80cc5e56a4e1f8509830"
+hash = "c981e8f790ba7c96d6a1f85385e591c6b8aee1bbe5d5e820213b4859433bb37b72f38160d1459b1b7908cd621f08f8c219abba2dd1ff552874f38280e799d67f"
 
 [update.modrinth]
 mod-id = "OC1Ud2T4"
-version = "drhz3vaw"
+version = "v9HISiZs"

@@ -162,7 +162,7 @@ metafile = true
 
 [[files]]
 file = "mods/masa-gadget.pw.toml"
-hash = "bf46f584bb835c0ed2a45fe731784c1522ee12ae9de84883c248367ca6f1e08d"
+hash = "817d289b7242a09e9940471785f7cda6cb6f408ad599b25cb39434871bbe2d57"
 metafile = true
 
 [[files]]
@@ -247,7 +247,7 @@ metafile = true
 
 [[files]]
 file = "mods/tweakermore.pw.toml"
-hash = "ef4aa6e8ef11042648b0b9dd3b0c33528fa716497c8dfe8053b06c965f2a45f6"
+hash = "c184184b8e8e84786ae46d22192a06152c1fd995c15bb3739e4ee77cf3e67960"
 metafile = true
 
 [[files]]

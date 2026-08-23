@@ -31,13 +31,18 @@ hash = "ec1ac73127a6229ab01be444a4b4721a2bb9d56d75fb3b5f8a958e3b523b62df"
 metafile = true
 
 [[files]]
+file = "mods/capture-playback.pw.toml"
+hash = "1487f54ac615555fc245851c0a88b827833dc0c19bd384bf8514489d12011e59"
+metafile = true
+
+[[files]]
 file = "mods/carpet-extra.pw.toml"
 hash = "bd7d4dca486a88d8d15957465ffbd2016b4a5e3911514bced9ca8c918884e2f3"
 metafile = true
 
 [[files]]
 file = "mods/carpet-igny-addition.pw.toml"
-hash = "0a4f592799c5bf58abe4f741890fb5660edad7aeb4b8fda7a981550a157ba4dd"
+hash = "a09f7bfa6beaaf33184ea2c2df4bdca3abfe632abb8e2a274ce70ad295a28833"
 metafile = true
 
 [[files]]
@@ -48,6 +53,11 @@ metafile = true
 [[files]]
 file = "mods/carpet.pw.toml"
 hash = "c5ed17434b9f7fa4daa641963566cd3337e1617957d8e77f52d3cb03aafb3b1a"
+metafile = true
+
+[[files]]
+file = "mods/carpetgui.pw.toml"
+hash = "2a352d54e5ac818bfb5b2eb914eedcbaa4349f459ae9320a8e1b90ec82be9e6e"
 metafile = true
 
 [[files]]
@@ -102,7 +112,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "4ba63364cb1e50db83c7f29144d2c74cee7159d2c3795ac6df267a927ed93198"
+hash = "7ed424f5ce1febe2c2c0e5fc58d34858f1bbd97eabdceb9b9c6afdde4bf578df"
 metafile = true
 
 [[files]]
@@ -147,7 +157,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "4558d459a64d360ef8954016a272f690b45e74fe8f078388a5a6329e5fa973f6"
+hash = "674f78a89de996dbb91d922d9e99cd38646e7a715a4373f6e6c285f3fe3106b7"
 metafile = true
 
 [[files]]
@@ -182,7 +192,7 @@ metafile = true
 
 [[files]]
 file = "mods/litematica.pw.toml"
-hash = "009d9135e8d02bc34226c7451b792421026fd94d40d2da7b10adfe56b50873b5"
+hash = "ee2c63e3a3f551d9316d48fffd5a886a6251393b5a9f9ec41198829a18400969"
 metafile = true
 
 [[files]]
@@ -192,12 +202,12 @@ metafile = true
 
 [[files]]
 file = "mods/malilib.pw.toml"
-hash = "09810fca32fe0ef88987b60c6aeac290d8ae2463988e77c164011b09756e1845"
+hash = "56bd8b39137e041148b39c6e6a4606ee913767135776b61cc1c8bb9744250d4e"
 metafile = true
 
 [[files]]
 file = "mods/minihud.pw.toml"
-hash = "c0f7962965342e52e79ccef61a3b2bc70c51250bbb38bc26929d8b09ba6d926c"
+hash = "f9629e6a880d196a565de0d910f230968d2620c23dd2eca83d032b85e3672218"
 metafile = true
 
 [[files]]
@@ -227,7 +237,12 @@ metafile = true
 
 [[files]]
 file = "mods/no-chat-reports.pw.toml"
-hash = "bfa06448233b5c9a31994658d00ce7a69cae9d475494182189e13c188604f550"
+hash = "71b34b69ad31beaa9a4ca2f633ac157c6a974adcf1e6e5fc7e1bde25c115cb7f"
+metafile = true
+
+[[files]]
+file = "mods/owo-lib.pw.toml"
+hash = "4929adf194ee966b1d74079b56e74aacfb15b7ed01180520d1451cf85fb094e0"
 metafile = true
 
 [[files]]
@@ -271,6 +286,11 @@ hash = "7a2849338319a82bc5da80de42922b5f540420c3eae16149501f155b0f8b2cd8"
 metafile = true
 
 [[files]]
+file = "mods/schematicpreview.pw.toml"
+hash = "7feebb32e6d7c43fa112cce977bbf689d765b55795edc97cdc88ebdf035f99d0"
+metafile = true
+
+[[files]]
 file = "mods/sodium-extra.pw.toml"
 hash = "23bd2f19c11a1b0b2870dafd6d5321af3549b22e84149bfd6ff3ff49af388788"
 metafile = true
@@ -297,7 +317,7 @@ metafile = true
 
 [[files]]
 file = "mods/syncmatica.pw.toml"
-hash = "a8cfd56f9a2a99a9b93e05e41decad8c4b245bba7ed0b27a3032e5d6d1a09e23"
+hash = "9371dea2f6e23885858fd4dc37eb119a2e1a45b5afdb4e011c7af0ebfcc5d282"
 metafile = true
 
 [[files]]
@@ -307,17 +327,17 @@ metafile = true
 
 [[files]]
 file = "mods/tweakermore.pw.toml"
-hash = "6e49e39ea5866c261447d1e05f04183525be601d5f43ed71448a6bc02d6c7caf"
+hash = "ef291cd6c531fa9527b28723be660cb6bbc2637913651b64e758ea5540a814fd"
 metafile = true
 
 [[files]]
 file = "mods/tweakeroo.pw.toml"
-hash = "2c69879bd658f8d39e5b41964c483a5c841c21edb85b141511ea9d25f3b68fcf"
+hash = "853c06e73b7999dff9c1bce3eabe1d3d123916cf3123aa54feb319705cf20012"
 metafile = true
 
 [[files]]
 file = "mods/viafabricplus.pw.toml"
-hash = "5530f53fa7c5f8ab9bc6c2e2feeac334ff10acbaa51ca385faf8fa00bfbc9f99"
+hash = "291d5158a2aae47ced15d36965653d43f78b995cbdb4c8cd7a64ec856cdd451f"
 metafile = true
 
 [[files]]
@@ -328,6 +348,11 @@ metafile = true
 [[files]]
 file = "mods/voxy.pw.toml"
 hash = "cfcf50a2114890efafba5b0ff81fa40c6cd93856ff14ac93fbe1d060c85c8062"
+metafile = true
+
+[[files]]
+file = "mods/wikirenderer.pw.toml"
+hash = "efc76b04e700ee3deb3136ef97f7e6ff2bfdc4568fc0313724c22632715fe1f6"
 metafile = true
 
 [[files]]

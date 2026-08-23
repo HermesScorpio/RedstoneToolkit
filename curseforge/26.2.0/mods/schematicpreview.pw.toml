@@ -1,12 +1,12 @@
 name = "SchematicPreview"
-filename = "schematicpreview-0.0.17+26.1.2.jar.disabled"
+filename = "schematicpreview-0.0.17+26.2.jar.disabled"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "9579d109f0926b74a33646b6cddc8c59ef0a0dc0"
+hash = "5790371ac66f7afbfc2c5c5c1538aa3d8c3fde39"
 mode = "metadata:curseforge"
 
 [update.curseforge]
-file-id = 8701866
+file-id = 8702241
 project-id = 1206865

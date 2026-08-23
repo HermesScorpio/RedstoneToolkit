@@ -36,9 +36,21 @@
   - Concurrent Chunk Management Engine (Fabric)
   - Fabric API
   - Fast Noise
+  - ImmediatelyFast
   - More Culling
   - Packed Packs
   - Sodium
+- 1.21.1-26.1.2:
+  - Capture & Playback
+- 1.21.11-26.2:
+  - Litematica
+  - MaLiLib
+  - MiniHUD
+  - Syncmatica
+  - Tweakeroo
+  - ViaFabricPlus
+- 1.21.11-26.1.2:
+  - SchematicPreview
 - 26.1.2-26.2:
   - Better Block Entities
   - LibJF
@@ -46,14 +58,16 @@
   - Respackopts
   - YetAnotherConfigLib (YACL)
 - 1.21.1:
-  - Capture & Playback
+  - ScalableLux
 - 26.1.2:
   - Iris Shaders
   - oωo (owo-lib)
+  - WikiRenderer
 - 26.2:
   - clientcommands
   - EssentialAddons
   - FastQuit
   - Krypton
+  - No Chat Reports
   - Packet Fixer
   - Redstone Multimeter Fabric
