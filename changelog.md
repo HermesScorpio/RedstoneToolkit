@@ -1,6 +1,6 @@
 ## News
 
-- Added 26.3-snapshot-9
+- Added 26.3-snapshot-10
 - Added IBCarpet
 - Added newly compatible mods to:
   - 1.16.5:
