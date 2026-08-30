@@ -1,12 +1,12 @@
 name = "SchematicPreview"
 filename = "schematicpreview-0.0.17+26.2.jar.disabled"
-side = "both"
+side = "client"
 
 [download]
-hash-format = "sha1"
-hash = "5790371ac66f7afbfc2c5c5c1538aa3d8c3fde39"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/OC1Ud2T4/versions/ZtNv1tgJ/schematicpreview-0.0.17%2B26.2.jar"
+hash-format = "sha512"
+hash = "07e2f510518288f04b2fd62a6f4f4a9be21496a4ad4222a71669c73e2d146006b0d77493c3680ecc3eaf7f6fa2b3cf98b433cc43bc7b1dc8ecde6ea582a2cbd4"
 
-[update.curseforge]
-file-id = 8702241
-project-id = 1206865
+[update.modrinth]
+mod-id = "OC1Ud2T4"
+version = "ZtNv1tgJ"

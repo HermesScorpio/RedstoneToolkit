@@ -10,10 +10,15 @@
   - 1.19.4:
     - WorldEdit CUI
   - 26.2:
+    - Capture & Playback
+    - CarpetGUI
     - FastQuit
     - G4mespeed
     - Krypton
+    - oωo (owo-lib)
     - Redstone Multimeter Fabric
+    - SchematicPreview
+    - WikiRenderer
 
 ## Changes
 
@@ -33,6 +38,7 @@
 - 1.20.6-26.2:
   - G4mespeed
 - 1.21.1-26.2:
+  - Capture & Playback
   - Concurrent Chunk Management Engine (Fabric)
   - Fabric API
   - Fast Noise
@@ -40,30 +46,30 @@
   - More Culling
   - Packed Packs
   - Sodium
-- 1.21.1-26.1.2:
-  - Capture & Playback
 - 1.21.11-26.2:
   - Litematica
   - MaLiLib
   - MiniHUD
+  - SchematicPreview
   - Syncmatica
+  - Technical Utilities
   - Tweakeroo
   - ViaFabricPlus
-- 1.21.11-26.1.2:
-  - SchematicPreview
 - 26.1.2-26.2:
   - Better Block Entities
   - LibJF
   - Lithium
+  - oωo (owo-lib)
   - Respackopts
+  - WikiRenderer
   - YetAnotherConfigLib (YACL)
 - 1.21.1:
   - ScalableLux
 - 26.1.2:
   - Iris Shaders
-  - oωo (owo-lib)
-  - WikiRenderer
 - 26.2:
+  - Axiom
+  - CarpetGUI
   - clientcommands
   - EssentialAddons
   - FastQuit
@@ -71,3 +77,4 @@
   - No Chat Reports
   - Packet Fixer
   - Redstone Multimeter Fabric
+  - voxy

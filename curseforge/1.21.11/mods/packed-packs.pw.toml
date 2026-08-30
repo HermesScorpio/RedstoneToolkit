@@ -1,13 +1,13 @@
 name = "Packed Packs"
-filename = "packed_packs-fabric-2.2.3+1.21.11.jar"
+filename = "packed_packs-fabric-2.2.4+1.21.11.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "49d18cd24b2c054364ca9baff839d3d9f690eb79"
+hash = "f8840e00f23506c0bd622496e01c6b9674748e3c"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8614527
+file-id = 8722506
 project-id = 1260514

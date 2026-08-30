@@ -207,7 +207,7 @@ metafile = true
 
 [[files]]
 file = "mods/packed-packs.pw.toml"
-hash = "06f8fac14c3f32e4c870f469e93ed9e88fd1692035ef77414e9bbdbe5a6f96ae"
+hash = "9b82df47173202401cbee33a8dbcac160355704355c12d4aa0a43ec30bbc7bb2"
 metafile = true
 
 [[files]]
@@ -247,7 +247,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "52df790208bad6233528f9706b0310b31b68c051d09ae9037bff337349795276"
+hash = "70b3caab1c757f0f63dad36d356a5556ad2b85075dc8b25f4db7f21155d49d21"
 metafile = true
 
 [[files]]
@@ -267,7 +267,7 @@ metafile = true
 
 [[files]]
 file = "mods/tweakermore.pw.toml"
-hash = "b809a1fa2dca04925b48ff4b735182b4c5134aac5b82247cd01fea053bb25ef7"
+hash = "0e6a907b3ba3c4493f2e37350abf93574213de4436774f2d614e3e2a0651f0ec"
 metafile = true
 
 [[files]]

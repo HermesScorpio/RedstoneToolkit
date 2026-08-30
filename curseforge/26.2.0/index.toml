@@ -107,7 +107,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "848d7bdc39c57f75174521d1cab2e76695d876a8bd8b298e64d8cbba2f1804fb"
+hash = "d46966de3677071eac5d725c032025068a54c93082a755c9a07233e5c8274b1c"
 metafile = true
 
 [[files]]
@@ -137,7 +137,7 @@ metafile = true
 
 [[files]]
 file = "mods/libjf.pw.toml"
-hash = "e4fbf423390ccfb5ff07255c7f91c1baf51ef90543a8fbe18e8686203627f440"
+hash = "ca4d50a3b32f8a863cc9218c65b5840c79b9cb2e68bc878224016040363594ae"
 metafile = true
 
 [[files]]
@@ -197,7 +197,7 @@ metafile = true
 
 [[files]]
 file = "mods/packed-packs.pw.toml"
-hash = "abeee4c4f4a88813260b0786b68f4ac7062dbb74ff553f70b65a5cbe701dd40f"
+hash = "b03788d0cecc3ff8a423d9df2952528ea0f5bb838d6df359aeba8a1ec5dd4c7f"
 metafile = true
 
 [[files]]
@@ -217,7 +217,7 @@ metafile = true
 
 [[files]]
 file = "mods/respackopts.pw.toml"
-hash = "26cb484690872a7473bd16139a76ecb0b75ba2dbf85d21790a725ad1b90a15b7"
+hash = "cca294752f147fe93ce1ae470722fce165a6484543911a6cc057dd4499985c3f"
 metafile = true
 
 [[files]]
@@ -252,7 +252,7 @@ metafile = true
 
 [[files]]
 file = "mods/tweakermore.pw.toml"
-hash = "c0646db849957b5f353492a3849166f750f3eb1e9b323c79ec113d1d8846387e"
+hash = "c9e36f37f0be6d69938ac6c835b8a4920918c6ec7414ef352de31340dd587f4e"
 metafile = true
 
 [[files]]

@@ -187,7 +187,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "e7ff198d3548b5944eb78563a0b6a4ceaff11cce9f5570362ec35bfe96370e8e"
+hash = "3e0eba292b6a2031f8ed10f8d38ba1ebab274ae0ff32151530dfd831afcd46b9"
 metafile = true
 
 [[files]]
@@ -317,7 +317,7 @@ metafile = true
 
 [[files]]
 file = "mods/packed-packs.pw.toml"
-hash = "f81b68661eee361078ae135f3d8518473aa5933c62472e8b24265edce8b88973"
+hash = "8b1ceee3bbe96d2f14879a20c68d4a8327f117a11801b6b25992d30f997f8453"
 metafile = true
 
 [[files]]
@@ -372,7 +372,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "60cce151dc2d10f446a39ccc5ae974d374ffe31e16984b51f913c65e795642f3"
+hash = "869af67848bf3b9ba4384bc9fb0cbe303d35263bd8de75eeabcba796edf4d7c6"
 metafile = true
 
 [[files]]
@@ -412,7 +412,7 @@ metafile = true
 
 [[files]]
 file = "mods/tweakermore.pw.toml"
-hash = "8e7d6226d7ecbde96958050c83a2555a80f2aa521f4ff675c679eaebf1f69e03"
+hash = "dc14d017fc6245d0b38eeef35cbb3b5ea426d358da989a160f6387cb56f0aa54"
 metafile = true
 
 [[files]]
