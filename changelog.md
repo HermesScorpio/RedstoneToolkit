@@ -36,14 +36,16 @@
 - 1.19.4-26.2:
   - Carpet IGNY Addition
 - 1.20.6-26.2:
+  - Capture & Playback
   - G4mespeed
 - 1.21.1-26.2:
-  - Capture & Playback
+  - Axiom
   - Concurrent Chunk Management Engine (Fabric)
   - Fabric API
   - Fast Noise
   - ImmediatelyFast
   - More Culling
+  - NBT Autocomplete
   - Packed Packs
   - Sodium
 - 1.21.11-26.2:
@@ -68,7 +70,6 @@
 - 26.1.2:
   - Iris Shaders
 - 26.2:
-  - Axiom
   - CarpetGUI
   - clientcommands
   - EssentialAddons

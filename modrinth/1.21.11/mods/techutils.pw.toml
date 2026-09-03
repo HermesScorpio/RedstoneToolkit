@@ -1,13 +1,13 @@
 name = "Technical Utilities"
-filename = "techutils-0.7.1+1.21.11.jar"
+filename = "techutils-0.7.2+1.21.11.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/hNoAJSm7/versions/CIAWKLW6/techutils-0.7.1%2B1.21.11.jar"
+url = "https://cdn.modrinth.com/data/hNoAJSm7/versions/tbpoQElr/techutils-0.7.2%2B1.21.11.jar"
 hash-format = "sha512"
-hash = "65124596440fc00bfa435614a3c13d247397a73babbf1be32d5f964f4e607fc8a6d8a98d1f5c1836413992b04aeeed77cb29f920bc97cf4f212e5f4e79fecda2"
+hash = "d15b83037f039bc616b4874ad8c46a9f579b5009c2b07d6b8c325739842583d1f5f35f508c4f1429e3790152d41240bee35ababf73b27e46073f70a9bf7c58dc"
 
 [update]
 [update.modrinth]
 mod-id = "hNoAJSm7"
-version = "CIAWKLW6"
+version = "tbpoQElr"

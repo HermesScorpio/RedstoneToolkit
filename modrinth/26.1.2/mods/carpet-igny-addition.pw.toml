@@ -1,13 +1,13 @@
 name = "Carpet IGNY Addition"
-filename = "carpet-igny-addition-v1.15.0-mc26.1.2.jar"
+filename = "carpet-igny-addition-v1.16.0-mc26.1.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/7PCm6yD1/versions/Sme74iyK/carpet-igny-addition-v1.15.0-mc26.1.2.jar"
+url = "https://cdn.modrinth.com/data/7PCm6yD1/versions/TCG9DMiv/carpet-igny-addition-v1.16.0-mc26.1.2.jar"
 hash-format = "sha512"
-hash = "300acb50233f2327db76497781a75cd763b494e08785e8125cbc3b82de7afb0a1229436138f9298e5ec17bf7a3b3f25a54138aefafe1d6622a463ec900aa8b02"
+hash = "fb8d148a1081e5de04bbe8efe987793ddc2231c3bc678c6a6562ca37c8b8f899848f992800fc89c22b693eefedc9cb753780ff035575374fe8d69e78ca58ecef"
 
 [update]
 [update.modrinth]
 mod-id = "7PCm6yD1"
-version = "Sme74iyK"
+version = "TCG9DMiv"

@@ -62,7 +62,7 @@ metafile = true
 
 [[files]]
 file = "mods/crash-assistant.pw.toml"
-hash = "fb7523a7724fcb5669e98c73d5554fa857d92e8db025e6f52fbcbbd76ce5562a"
+hash = "34c6f7be54b4b18e66116424ac7330f983b018b3f30d5013c927d45843007f73"
 metafile = true
 
 [[files]]
@@ -292,7 +292,7 @@ metafile = true
 
 [[files]]
 file = "mods/tweakermore.pw.toml"
-hash = "4bcb3b32a134c1c546fa62c66863f3cf1fda224a9eab324fa7739e8c4ddaf07a"
+hash = "05ff82f16f780aff7c31abd28dc774064c798f8fbf20b969b8fb01c832bde064"
 metafile = true
 
 [[files]]

@@ -12,7 +12,7 @@ metafile = true
 
 [[files]]
 file = "mods/axiom.pw.toml"
-hash = "fd2ef30ef636d82ea5349a4d663743a576d77a7ff648e36ab86f29a083a2a8b2"
+hash = "2d24a8ef18a7174092bcc068366ff2098f25a3ee9df090b37376e82683d85903"
 metafile = true
 
 [[files]]
@@ -42,7 +42,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-igny-addition.pw.toml"
-hash = "23968f8fbbc6f97f40a73735609ad692abb504a3ff15231a86fef95f69356683"
+hash = "6045f88f914a6622de718d89e24a5eae3c123becd145c7c265424aebf026115e"
 metafile = true
 
 [[files]]
@@ -142,7 +142,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "0f6ef76068ccf1e3607722151921861e27783c6951b2e7a724eccce3951d6447"
+hash = "9645e76b2915aa43b0918e1ef20e1c01b64ba9073e35c8bcd70cf34af8ab604e"
 metafile = true
 
 [[files]]
@@ -297,7 +297,7 @@ metafile = true
 
 [[files]]
 file = "mods/nbt-autocomplete.pw.toml"
-hash = "40b17cafd02d47840cd3d916ce51a756e0c73280cfe934aab01605602033db43"
+hash = "fdfe6dddbd9a524cc498db681695f2183fabf970544b71380c1bb268ec6a68ab"
 metafile = true
 
 [[files]]
@@ -412,7 +412,7 @@ metafile = true
 
 [[files]]
 file = "mods/tweakermore.pw.toml"
-hash = "dc14d017fc6245d0b38eeef35cbb3b5ea426d358da989a160f6387cb56f0aa54"
+hash = "f0cf2a4b123cf314029140c385141e465746667e52400db68e7666fb27cf1ad8"
 metafile = true
 
 [[files]]

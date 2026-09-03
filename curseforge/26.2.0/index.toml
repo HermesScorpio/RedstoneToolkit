@@ -32,7 +32,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-igny-addition.pw.toml"
-hash = "a4ed56a312ebc199525201855263db1c852779ffd4446dbd59c6ea97a6d5bd64"
+hash = "ac6fe93252121a71b5ab04b628add46524126505991c39b1080b865937834d3f"
 metafile = true
 
 [[files]]
@@ -77,7 +77,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "3e91c4324a39c915a7668b744339fca7a5e0a3b234b0de69816a8f38ef3238be"
+hash = "be9c2b9910b3ad2ec867756951fc56523906980338721e7a575278a0fa994a58"
 metafile = true
 
 [[files]]
@@ -177,7 +177,7 @@ metafile = true
 
 [[files]]
 file = "mods/nbt-autocomplete.pw.toml"
-hash = "183524383b913202d2bb45987e027cb3b6c3a22aa34d6dc3d251b821639e8a97"
+hash = "404a762721e7084aa2452667b1f1f848ad1d18f3b68a8e9cebe56ee8dc2c1b2a"
 metafile = true
 
 [[files]]
@@ -237,7 +237,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "c5c19a81681ce05b81a9898b61140f8891dc6b8983e540e5577002b5615e7657"
+hash = "2dfc06c6875c1f945fec0124cdca03cba4a5bc99d33e9346479e01bc95d975c8"
 metafile = true
 
 [[files]]
@@ -252,7 +252,7 @@ metafile = true
 
 [[files]]
 file = "mods/tweakermore.pw.toml"
-hash = "c9e36f37f0be6d69938ac6c835b8a4920918c6ec7414ef352de31340dd587f4e"
+hash = "38eb55d4b2542f5f6f4c3afb4fdfe63526ce28be2faed5d6c8655748e2d7116b"
 metafile = true
 
 [[files]]

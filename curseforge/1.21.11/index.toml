@@ -32,7 +32,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-igny-addition.pw.toml"
-hash = "7314fd6f3d3d0bcd26869d3fa460254d8677aee2dfd7eef4cb3b7a9b78311926"
+hash = "1050371333c20ab61338a46d76e9d0b4abaa11283437e7fac038c4c9efbe0277"
 metafile = true
 
 [[files]]
@@ -187,7 +187,7 @@ metafile = true
 
 [[files]]
 file = "mods/nbt-autocomplete.pw.toml"
-hash = "390d94a7d82d756a51eda58e17059cdf596d47e20190f709317443caaba86284"
+hash = "ab92a2b352131422dee3e2c057d4f4de0978219efe9cd59a3c5551cd965f0773"
 metafile = true
 
 [[files]]
@@ -267,7 +267,7 @@ metafile = true
 
 [[files]]
 file = "mods/tweakermore.pw.toml"
-hash = "0e6a907b3ba3c4493f2e37350abf93574213de4436774f2d614e3e2a0651f0ec"
+hash = "38391c45d3afd30458cec5896a111001e4b801a33329c4f39711f5a2c4e28109"
 metafile = true
 
 [[files]]

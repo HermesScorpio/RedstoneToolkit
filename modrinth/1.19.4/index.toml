@@ -37,7 +37,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-igny-addition.pw.toml"
-hash = "64f314c6dec0ab80e58d59607bfb538dbcae533c57a63a725bdbd1debd8fc1f0"
+hash = "23afadccc58d457650738f63d17c04f378c3b29c3b248de86c1e839b9efe0a86"
 metafile = true
 
 [[files]]
@@ -202,7 +202,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "f05b78621f693b871ff91bd9c80d896071a87e078f174025343924a243510a5f"
+hash = "4283111ce9757054aee2b2b08cb85b6afa7943ae3c6374c79a0275cdbc3def45"
 metafile = true
 
 [[files]]
