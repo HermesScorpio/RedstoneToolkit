@@ -1,6 +1,6 @@
 ## News
 
-- Added 26.3-pre-1
+- Added 26.3-pre-2
 - Added IBCarpet
 - Added newly compatible mods to:
   - 1.16.5:
