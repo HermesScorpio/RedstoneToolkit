@@ -7,12 +7,12 @@ metafile = true
 
 [[files]]
 file = "mods/auth-me.pw.toml"
-hash = "1327dad832039dc52db0891d1d9214728a0694186f9c7e95f1788f7e04f76b3d"
+hash = "92fa9c5877187ad9d6ec3a5e051d3c2f3e2fd309893dc2257fa0a86028dbf5c1"
 metafile = true
 
 [[files]]
 file = "mods/axiom.pw.toml"
-hash = "63a72288437685216c68e2109f58f0673cb3ac780117124168eeaa5673a946a9"
+hash = "e9c5fb759ab0f7ded19ad9770be784c2dc32d9ba8300221ff93f0e4fa546b451"
 metafile = true
 
 [[files]]
@@ -76,8 +76,13 @@ hash = "b7f2532f354c60e7989a348aeed5e651ca6e0091552a623b262bc412310c8dab"
 metafile = true
 
 [[files]]
+file = "mods/essentialclient.pw.toml"
+hash = "63935e4f0a4dd335442cab8ed37856e5b3ad309c15871074c014da35e4c9a6a2"
+metafile = true
+
+[[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "03565c21056d2390feffd1699e0c2b7f88f5a39b548688bebcb34707937b567f"
+hash = "6b342a83e9736f0832e750c8d631273cf600305d73b32c8bd6a977811f6972ee"
 metafile = true
 
 [[files]]
@@ -96,6 +101,11 @@ hash = "069d81cab53c0141459ad4d70bcf3e10f17652f24cc62d3b4a0fc2cd2b700871"
 metafile = true
 
 [[files]]
+file = "mods/forcecloseworldloadingscreen.pw.toml"
+hash = "6d4e844966120995b31d5930edef702e4bea3e8f7d445d54feeb57052e83f21e"
+metafile = true
+
+[[files]]
 file = "mods/fzzy-config.pw.toml"
 hash = "bd842d14ebb84eb6fb734c1a5fb98b614cc85f639f7fd0ad2cb2d7be6dd7d9c6"
 metafile = true
@@ -103,6 +113,11 @@ metafile = true
 [[files]]
 file = "mods/hold-that-chunk-v2.pw.toml"
 hash = "e6db4bf772c98a26399b745cd824e17dc8ec856017bb49bac28f0a4a4f885830"
+metafile = true
+
+[[files]]
+file = "mods/ibcarpet.pw.toml"
+hash = "412ab487ec0c2b1cbc0b54c91b38084b61f3e873b490e8582567f98f2fb180ca"
 metafile = true
 
 [[files]]
@@ -147,7 +162,7 @@ metafile = true
 
 [[files]]
 file = "mods/nbt-copy.pw.toml"
-hash = "c426f1d18df148717f9b4e1c675fd81f638134c09b7e846b9508b6fc4e377358"
+hash = "abfaa2ee07bd72ce397ed6634349baad0254df8267e924dcb4370245d0dcdece"
 metafile = true
 
 [[files]]
@@ -197,12 +212,17 @@ metafile = true
 
 [[files]]
 file = "mods/spark.pw.toml"
-hash = "1dbf2d33a89fc4277dc26d58ee0a579117a52e80413fdb599c3176760520888e"
+hash = "9b0969e4afbc18124775c008361dc1cfb9a17e49098d93d067b6342a4a54427c"
 metafile = true
 
 [[files]]
 file = "mods/viafabricplus.pw.toml"
-hash = "d93046d9e85a20f5d580fcac93566314a5b4d04ccea21fe3e455246ae530a832"
+hash = "b3f948ab355d71dc15d0683da76d873587bb1f113b83277761327391e9a1b301"
+metafile = true
+
+[[files]]
+file = "mods/wikirenderer.pw.toml"
+hash = "2f6a7645e5ebef530b25f0b66bf0562f6a86904c496f27b43f1e27bb856d89e2"
 metafile = true
 
 [[files]]

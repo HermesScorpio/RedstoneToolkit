@@ -1,0 +1,13 @@
+name = "IBCarpet"
+filename = "ibcarpet-26.3-26.09.18.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/dZhnUIjT/versions/DBWT32MK/ibcarpet-26.3-26.09.18.jar"
+hash-format = "sha512"
+hash = "e73618c09357e3325b2adf360fee8d3e62d8b79ae31699616b9b54cd73a2487effc03bd417ef7adbc8130afe006b838e21bf79701a735e0cf2ec15ae3cae456f"
+
+[update]
+[update.modrinth]
+mod-id = "dZhnUIjT"
+version = "DBWT32MK"

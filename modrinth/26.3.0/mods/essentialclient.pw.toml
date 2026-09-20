@@ -1,0 +1,13 @@
+name = "EssentialClient"
+filename = "EssentialClient-2.8.0+26.3.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/sH0dfrKf/versions/HbP2caRA/EssentialClient-2.8.0%2B26.3.jar"
+hash-format = "sha512"
+hash = "9633751b3aa5e482f870b3f80e50dd80f004ab71504d928cbbe63f59ebf358016ec5f52e865a720b23455a56d1dc6ce58014fa2444cc0d03a40d8ec689d19155"
+
+[update]
+[update.modrinth]
+mod-id = "sH0dfrKf"
+version = "HbP2caRA"
