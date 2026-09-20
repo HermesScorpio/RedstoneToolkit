@@ -48,6 +48,7 @@ enabled_files:
     cf_slug: malilib
   - mr_slug: owo-lib
     cf_slug: owo-lib
+    version: "<26.3.0"
   - mr_slug: yacl
     cf_slug: yacl
   - mr_slug: zconfig

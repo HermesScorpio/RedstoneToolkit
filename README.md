@@ -57,7 +57,7 @@ These mods are enabled by default and recommended to the user
 - [Fzzy Config](https://modrinth.com/mod/fzzy-config) - Configuration library required by Particle Core
 - [MagicLib](https://modrinth.com/mod/magiclib) - Library required by MasaGadget
 - [MaLiLib](https://modrinth.com/mod/malilib) - Library required by Masa's mods
-- [oωo](https://modrinth.com/mod/owo-lib) - Library required by Isometric Renders and WikiRenderer
+- [oωo](https://modrinth.com/mod/owo-lib) - Library required by Isometric Renders and WikiRenderer (versions <26.3.0)
 - [YetAnotherConfigLib](https://modrinth.com/mod/yacl) - Configuration library required by multiple mods
 - [ZConfig](https://modrinth.com/mod/zconfig) - Configuration library required by Fast Noise
 
