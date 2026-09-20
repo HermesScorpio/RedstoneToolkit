@@ -1,13 +1,13 @@
 name = "WikiRenderer"
-filename = "wikirenderer-2.5.2+26.2.jar"
+filename = "wikirenderer-2.5.3+26.2.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/7x65n82E/versions/k8VSRKF1/wikirenderer-2.5.2%2B26.2.jar"
+url = "https://cdn.modrinth.com/data/7x65n82E/versions/UpmaR9Uw/wikirenderer-2.5.3%2B26.2.jar"
 hash-format = "sha512"
-hash = "54422c2e6852772eb289ff852bc89cf1084b63a2ebcecad6370a4e188b0a47371f8432920e981eed1ccf687ef335633a2531a3b8a1d7136c34aa93b9eed1232c"
+hash = "58aa14d77bc1763cad2d23b72982d9f6a90f670833a1b82528d21a899d862787244806bd4cb439fda797b1213c5e7e483eafc830575e7d7e25e5fa1b6ea08434"
 
 [update]
 [update.modrinth]
 mod-id = "7x65n82E"
-version = "k8VSRKF1"
+version = "UpmaR9Uw"

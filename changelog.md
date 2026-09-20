@@ -1,90 +1,17 @@
 ## News
 
-- Added 26.3
-- Added IBCarpet
-- Added Optimized Block Entities [OBE]
-- Added ZConfig
-- Added newly compatible mods to:
-  - 1.16.5:
-    - WorldEdit CUI
-  - 1.18.2:
-    - WorldEdit CUI
-  - 1.19.4:
-    - WorldEdit CUI
-  - 26.2:
-    - Capture & Playback
-    - CarpetGUI
-    - FastQuit
-    - G4mespeed
-    - Krypton
-    - oωo (owo-lib)
-    - Redstone Multimeter Fabric
-    - SchematicPreview
-    - WikiRenderer
 
 ## Changes
 
-- Removed Better Block Entities
 
 ## Updates
 
-- 1.16.5-26.2:
-  - Carpet TIS Addition
-  - Crash Assistant
-  - Fabric Language Kotlin
-  - Ixeris
-  - TweakerMore
-  - WorldEdit
-  - WorldEdit CUI
-- 1.19.4-26.2:
-  - Carpet IGNY Addition
 - 1.20.6-26.2:
-  - Capture & Playback
-  - G4mespeed
-- 1.21.1-26.2:
-  - Axiom
-  - Concurrent Chunk Management Engine (Fabric)
-  - Fabric API
-  - Fast Noise
-  - Fzzy Config
-  - ImmediatelyFast
-  - More Culling
-  - NBT Autocomplete
-  - Packed Packs
-  - Reese's Sodium Options
-  - Sodium
-  - Sodium Extra
-- 1.21.11-26.2:
-  - Item Scroller
-  - Litematica
-  - MaLiLib
-  - MiniHUD
-  - SchematicPreview
-  - Syncmatica
-  - Technical Utilities
-  - Tweakeroo
-  - ViaFabricPlus
-- 1.20.6-1.21.1:
-  - YetAnotherCarpetAddition
-- 26.1.2-26.2:
-  - Iris Shaders
-  - LibJF
-  - Lithium
-  - Mod Menu
-  - oωo (owo-lib)
-  - Respackopts
-  - spark
-  - WikiRenderer
-  - YetAnotherConfigLib (YACL)
-- 1.21.1:
-  - ScalableLux
+  - Entity Culling
 - 26.2:
-  - CarpetGUI
-  - clientcommands
-  - EssentialAddons
-  - FastQuit
-  - Krypton
-  - No Chat Reports
-  - Packet Fixer
-  - Redstone Multimeter Fabric
-  - voxy
+  - Fabric API
+  - spark
+  - ViaFabricPlus
+  - WikiRenderer
+- 26.3:
+  - Carpet

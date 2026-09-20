@@ -1,12 +1,12 @@
 name = "ViaFabricPlus"
-filename = "viafabricplus-bedrock-1.0.2.jar.disabled"
+filename = "ViaFabricPlus-5.1.0.jar.disabled"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "65fa2c42514f6b8539433af9f9e18ae335c2e4ac"
+hash = "36053450f24ddf78874ec325eee38e4f1c43eee6"
 mode = "metadata:curseforge"
 
 [update.curseforge]
-file-id = 8913638
+file-id = 8924193
 project-id = 830604

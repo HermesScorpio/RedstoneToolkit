@@ -92,7 +92,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "ef9b3d887d5b2b31809fda35b2bfa4d68346e4491d4b52128358c2ed77741b89"
+hash = "08228bff1c68171d2466bb0657deb1747f0c3b25ce6aab6ca27753f4cf988acf"
 metafile = true
 
 [[files]]
@@ -107,7 +107,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "37069be1c7d23b2fe463a98297d1f12eb8875f0d3be651a3a6cadc868752ab5a"
+hash = "af4c96fcc59bec634f457bf7693496f203ceaac28a180e84a73c488a1a2895cb"
 metafile = true
 
 [[files]]
@@ -307,7 +307,7 @@ metafile = true
 
 [[files]]
 file = "mods/spark.pw.toml"
-hash = "efab6a798140d1c23982bf99b27b32f1b79922ae4ac3d9564781cf65630a0d75"
+hash = "9b0969e4afbc18124775c008361dc1cfb9a17e49098d93d067b6342a4a54427c"
 metafile = true
 
 [[files]]
@@ -337,7 +337,7 @@ metafile = true
 
 [[files]]
 file = "mods/viafabricplus.pw.toml"
-hash = "fe09917c03a74428ca728ee99e060dd91451da5ec9cd63b0b02df4b4fb6911e4"
+hash = "3c5780f2cd8696703bd760f022dde9638d52dafb088af3aee2d17bf0e2a52f12"
 metafile = true
 
 [[files]]
@@ -352,7 +352,7 @@ metafile = true
 
 [[files]]
 file = "mods/wikirenderer.pw.toml"
-hash = "efc76b04e700ee3deb3136ef97f7e6ff2bfdc4568fc0313724c22632715fe1f6"
+hash = "0c6d73c04f3646812096f5d73d60feffb4b51379284844ffa9392b8b0ffd8150"
 metafile = true
 
 [[files]]

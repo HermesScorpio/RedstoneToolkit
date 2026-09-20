@@ -6,6 +6,11 @@ hash = "d9ec0722ae575b8a94684f6ce45d332a2294b07806eb6b12ef7bedbd9b384d11"
 metafile = true
 
 [[files]]
+file = "mods/auth-me.pw.toml"
+hash = "1327dad832039dc52db0891d1d9214728a0694186f9c7e95f1788f7e04f76b3d"
+metafile = true
+
+[[files]]
 file = "mods/axiom.pw.toml"
 hash = "63a72288437685216c68e2109f58f0673cb3ac780117124168eeaa5673a946a9"
 metafile = true
@@ -27,7 +32,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet.pw.toml"
-hash = "45d5d119046062a8ccf00c4fa48c180282520fc196d6192d3711e42f079e55d8"
+hash = "174625cfd3f201e2864edd08a0e195683ae12bc094d8448c44186717d5ead638"
 metafile = true
 
 [[files]]
@@ -58,6 +63,11 @@ metafile = true
 [[files]]
 file = "mods/crash-assistant.pw.toml"
 hash = "de893e3ffe8c044bebbd37e7f3b1f1c51fab05c5765dd587494b19e0529ea5e0"
+metafile = true
+
+[[files]]
+file = "mods/entityculling.pw.toml"
+hash = "b7bd2352fcd1ec4c6aacfdfcf801c891ddb2ec52bd44c9b541cf529bbbf0af12"
 metafile = true
 
 [[files]]
@@ -136,6 +146,11 @@ hash = "f32ebeb468312cf555bd84d09c1a3a6e6f9ed992e4afc3ce9620aca571490806"
 metafile = true
 
 [[files]]
+file = "mods/nbt-copy.pw.toml"
+hash = "c426f1d18df148717f9b4e1c675fd81f638134c09b7e846b9508b6fc4e377358"
+metafile = true
+
+[[files]]
 file = "mods/obe.pw.toml"
 hash = "6e0b8305ee2c9b162614bcbf86315b8576c630fcbc586468c94ce17f4d393162"
 metafile = true
@@ -178,6 +193,16 @@ metafile = true
 [[files]]
 file = "mods/sound-controller.pw.toml"
 hash = "aa21052e013553676070bba8b03c54fa519d75315bd82997a1bcbaab8d92a006"
+metafile = true
+
+[[files]]
+file = "mods/spark.pw.toml"
+hash = "1dbf2d33a89fc4277dc26d58ee0a579117a52e80413fdb599c3176760520888e"
+metafile = true
+
+[[files]]
+file = "mods/viafabricplus.pw.toml"
+hash = "d93046d9e85a20f5d580fcac93566314a5b4d04ccea21fe3e455246ae530a832"
 metafile = true
 
 [[files]]

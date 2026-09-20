@@ -6,6 +6,11 @@ hash = "fc9c2f4e8e4a257667109506a641c1cd54613d1ee95206a8d31ce0723d8dd645"
 metafile = true
 
 [[files]]
+file = "mods/auth-me.pw.toml"
+hash = "1327dad832039dc52db0891d1d9214728a0694186f9c7e95f1788f7e04f76b3d"
+metafile = true
+
+[[files]]
 file = "mods/badoptimizations.pw.toml"
 hash = "e9dae46a0b8c7af1c2d778118219ca4fd7e159ee200bb813e1e9da0c0f4441c2"
 metafile = true
@@ -46,8 +51,13 @@ hash = "8521c6113e992a55e692f6797361f270263917c6a75099e1484576ce61b201c7"
 metafile = true
 
 [[files]]
+file = "mods/entityculling.pw.toml"
+hash = "6268104a5383c4f860171b9ca8e99b697e51b95d63474faa9bc8cfc6065f9895"
+metafile = true
+
+[[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "346d39c22c4b7a68c4fd4f6d01c7d5126a17bb2878c56b4082a634cb3dfb5a46"
+hash = "4447876c268621b4f622efa1508724a7c13a284b62321f59adbc369d82968ca6"
 metafile = true
 
 [[files]]
@@ -77,7 +87,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "82f4f4dd99dfd93b269f4b8cea2af819d08448541d6d559d9b2c481b784e40c6"
+hash = "1ee869971de35806ace3c80f3118dd249ba104c00d973de7e37088ab20cfc86b"
 metafile = true
 
 [[files]]
@@ -103,6 +113,11 @@ metafile = true
 [[files]]
 file = "mods/moreculling.pw.toml"
 hash = "e3963a3ecbd7a89265d8441d1bd9def9b910f5e14ad8a6030d86e15ccf16d3bd"
+metafile = true
+
+[[files]]
+file = "mods/nbt-copy.pw.toml"
+hash = "c426f1d18df148717f9b4e1c675fd81f638134c09b7e846b9508b6fc4e377358"
 metafile = true
 
 [[files]]
@@ -143,6 +158,16 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "56746c54223304245ccc48a0598a0a1c426697219bb118906988d83a79d02031"
+metafile = true
+
+[[files]]
+file = "mods/spark.pw.toml"
+hash = "1dbf2d33a89fc4277dc26d58ee0a579117a52e80413fdb599c3176760520888e"
+metafile = true
+
+[[files]]
+file = "mods/viafabricplus.pw.toml"
+hash = "d93046d9e85a20f5d580fcac93566314a5b4d04ccea21fe3e455246ae530a832"
 metafile = true
 
 [[files]]
